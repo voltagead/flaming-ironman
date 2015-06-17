@@ -1,4 +1,4 @@
-# VOLTAGE Development Guidelines (flaming-ironman)
+# VOLTAGE Development Guidelines
 Internal Information for use by Voltage
 
 ## To Contribute

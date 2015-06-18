@@ -1,6 +1,6 @@
 Topics that we need to standardize
 
-* [[Code Standards|Code Standards]]
+* [Code Standards](coding-standards)
 * Git Flow
-* [[Wordpress|Wordpress]]
+* [Wordpress](frameworks/wordpress)
 * QA

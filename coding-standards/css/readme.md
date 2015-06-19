@@ -58,5 +58,13 @@ Preferred ordering of properties inside selectors:
 - `@extend`s
 - CSS properties
 
+```scss
+.class-name {
+	@include border-radius(5px);
+	@extend .clearfix;
+	margin: 0;
+}
+```
+
 
 

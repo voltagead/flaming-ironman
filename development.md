@@ -17,4 +17,4 @@ We want the feature branches to be relatively smaller in size, so they are easie
 6. Developers reviewing the PR should look for:
 	- Code adhering to company development standards
 	- Opportunities for code improvement (optimizations, alternative approaches, etc.)
-7. When discussion concludes (if applicable) and the code is ready to be merged into master, the reviewer should incidate their approval in the PR and the person who created the PR should merge in the files and close it.
+7. When discussion concludes (if applicable) and the code is ready to be merged into master, the reviewer should indicate their approval in the PR and the person who created the PR should merge in the files and close it.

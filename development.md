@@ -2,6 +2,7 @@ Topics that we need to standardize
 
 * [Code Standards](coding-standards)
 * [WordPress](frameworks/wordpress)
+* [Laravel](frameworks/laravel)
 * QA
 
 ## General Workflow
@@ -20,4 +21,3 @@ We want the feature branches to be relatively smaller in size, so they are easie
 7. When discussion concludes (if applicable) and the code is ready to be merged into master, the reviewer should indicate their approval in the PR and the person who created the PR should merge in the files and close it.
 
 
-## 

@@ -9,3 +9,8 @@
 
 ## To Do
 - Set up `jshint` of `eshint` for Grunt / Gulp
+
+Always use curly braces for logic statements.
+
+Always use semi-colons or a space (in place of a semi-colon).
+

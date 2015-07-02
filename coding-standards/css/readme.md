@@ -66,5 +66,7 @@ Preferred ordering of properties inside selectors:
 }
 ```
 
-
+Comment liberally, explaining decisions for things that may seem odd to fresh eyes. 
+Always use the double-slash format: `// Comment`
+Don't comment out code, delete it. That's what version control is for.
 

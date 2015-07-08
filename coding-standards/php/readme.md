@@ -3,13 +3,13 @@
 
 To match WordPress convention, we should adhere to the [WordPress PHP Coding Standards](https://make.wordpress.org/core/handbook/coding-standards/php/). 
 
-No Shorthand PHP Tags.
+No Shorthand PHP Tags: `<?=$var ?>` or `<? function() ?>`
 
 Remove trailing whitespace at the end of each line of code.
 
 Omitting the closing PHP tag at the end of a file is preferred. If you use the tag, make sure you remove trailing whitespace.
 
-Put spaces on both sides of the opening and closing parenthesis of `if`, `elseif`, `foreach`, `for`, and `switch` blocks.
+Put spaces on both sides of the opening and closing parenthesis of `if`, `elseif`, `foreach`, `for`, and `switch` blocks: `if ( $conditional )`
 
 When referring to array items, only include a space around the index if it is a variable:
 ```php
@@ -72,7 +72,7 @@ $my_array = array(
 *In general, readability is more important than cleverness or brevity.*
 
 
-## Wishlist
+## To Do
 
 - `.editorconfig`
 - Set up PHPLint

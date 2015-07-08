@@ -1,10 +1,9 @@
-Topics that we need to standardize
-
-* [Code Standards](coding-standards)
-* [WordPress](frameworks/wordpress)
-* QA
-
 ## General Workflow
+
+Limit git usage to the command line, opting to use GUI as a last resort. This gives you a better understanding what git is actually doing.
+
+_Don't comment out code, delete it. That's what version control is for._
+
 We want the feature branches to be relatively smaller in size, so they are easier for others to review quickly. If several different, large changes need to be made, considering making a separate branch/pull request for each change.
 
 1. Using the * [GitHub Flow](https://guides.github.com/introduction/flow/) workflow, every new feature/fix to a site will be done locally in a branch off of master
@@ -18,3 +17,8 @@ We want the feature branches to be relatively smaller in size, so they are easie
 	- Code adhering to company development standards
 	- Opportunities for code improvement (optimizations, alternative approaches, etc.)
 7. When discussion concludes (if applicable) and the code is ready to be merged into master, the reviewer should indicate their approval in the PR and the person who created the PR should merge in the files and close it.
+
+
+## Documentation
+
+Project-specific documentation (how to compile Sass, how to install the dependencies, etc.) should be documented in the private project's Wiki

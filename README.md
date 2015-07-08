@@ -18,6 +18,6 @@ Internal Information for use by Voltage
 	- QA
 - Frameworks
 	- [WordPress](frameworks/wordpress/)
+		- [Plugins](frameworks/wordpress/plugins.md)
 	- [Laravel](frameworks/laravel/)
-- [Recommended Plugins](frameworks/wordpress/plugins.md)
 - [Code Snippets](snippets/)

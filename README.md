@@ -19,4 +19,5 @@ Internal Information for use by Voltage
 - Frameworks
 	- [WordPress](frameworks/wordpress/)
 	- [Laravel](frameworks/laravel/)
+- [Recommended Plugins](frameworks/wordpress/plugins.md)
 - [Code Snippets](snippets/)

@@ -1,13 +1,6 @@
-## Coding Style Guides
-
-* [CSS](coding-standards/css)
-* [JavaScript](coding-standards/js)
-* [PHP](coding-standards/php)
-* [WordPress](frameworks/wordpress)
-* [Laravel](frameworks/laravel)
-* QA
-
 ## General Workflow
+
+Limit git usage to the command line, opting to use GUI as a last resort. This gives you a better understanding what git is actually doing.
 
 _Don't comment out code, delete it. That's what version control is for._
 

@@ -11,10 +11,11 @@ Internal Information for use by Voltage
 - [Development](development.md)
 - [Tech Talk](tech-talk.md)
 - Coding Standards
-	- HTML
+	- [HTML](coding-standards/html/)
 	- [CSS](coding-standards/css/)
 	- [JavaScript](coding-standards/js/)
 	- [PHP](coding-standards/php/)
+	- QA
 - Frameworks
 	- [WordPress](frameworks/wordpress/)
 	- [Laravel](frameworks/laravel/)

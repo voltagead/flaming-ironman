@@ -1,11 +1,15 @@
-Topics that we need to standardize
+## Coding Style Guides
 
-* [Code Standards](coding-standards)
+* [CSS](coding-standards/css)
+* [JavaScript](coding-standards/js)
+* [PHP](coding-standards/php)
 * [WordPress](frameworks/wordpress)
 * [Laravel](frameworks/laravel)
 * QA
 
+
 ## General Workflow
+
 We want the feature branches to be relatively smaller in size, so they are easier for others to review quickly. If several different, large changes need to be made, considering making a separate branch/pull request for each change.
 
 1. Using the * [GitHub Flow](https://guides.github.com/introduction/flow/) workflow, every new feature/fix to a site will be done locally in a branch off of master

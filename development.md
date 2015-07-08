@@ -7,8 +7,9 @@
 * [Laravel](frameworks/laravel)
 * QA
 
-
 ## General Workflow
+
+_Don't comment out code, delete it. That's what version control is for._
 
 We want the feature branches to be relatively smaller in size, so they are easier for others to review quickly. If several different, large changes need to be made, considering making a separate branch/pull request for each change.
 

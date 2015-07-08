@@ -7,7 +7,8 @@ Refer to the [jQuery](http://contribute.jquery.org/style-guide/js/) style guide.
 ### General Guidelines
 
 - Use pure JavaScript when appropriate. Refer to [youmightnotneedjquery.com](http://youmightnotneedjquery.com/)
-- Use `js-` CSS class prefix or `data-` HTML attributes when using JavaScript to manipulated the DOM
+- Use `js-` CSS class prefix when using JavaScript hooks to manipulated the DOM.
+	- `data-` HTML attributes are meant to store data, not be bound to
 	- Do not use CSS classes for both styles and JavaScript functionality
 - Indentation with tabs.
 - No whitespace at the end of line or on blank lines.

@@ -17,3 +17,5 @@ Internal Information for use by Voltage
 	- [PHP](coding-standards/php/)
 - Frameworks
 	- [WordPress](frameworks/wordpress/)
+	- [Laravel](frameworks/laravel/)
+- [Code Snippets](snippets/)

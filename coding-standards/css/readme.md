@@ -32,7 +32,37 @@ If there are multiple selectors, place one selector per line. Exceptions to this
 .fourth-item { display: none; }
 ```
 
-Don't make values and selectors hard to override.
+Avoid [collapsing margins](http://www.sitepoint.com/web-foundations/collapsing-margins/) by applying vertical margins to the bottom of elements, where possible.
+
+For media queries, use `min-width`s when possible (mobile first):
+
+```scss
+.selector {
+	/* Default mobile style */
+	display: none;
+
+	@include breakpoint(min-width 480px) {
+		display: inline;
+	}
+
+	@include breakpoint(min-width 720px) {
+		display: inline-block;
+	}	
+
+	@include breakpoint(min-width 990px) {
+		display: block;
+	}
+
+	...
+}
+
+```
+
+Refrain from using capitalized text in your markup. Uppercase text should be set in the CSS via `text-transform: uppercase;`
+
+Use `padding` instead of `line-height` where possible when applying vertical padding to elements.
+
+Don't make values and selectors hard to override with unecessary specificity (watch your nesting levels).
 
 When indenting Sass, we stick to the same four (4) spaces, and we also leave a blank line before and after the nested ruleset.
 

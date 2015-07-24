@@ -18,7 +18,7 @@ At a high level, we want:
 
 Split discrete chunks of code into their own files, which are concatenated during a build step.
 
-Use hypen case, not camel or underscore (snake)
+Use hyphen case, not camel or underscore (snake)
 
 If there are multiple selectors, place one selector per line. Exceptions to this rule should be fairly apparent, such as similar rulesets that only carry one declaration each.
 
@@ -62,7 +62,7 @@ Refrain from using capitalized text in your markup. Uppercase text should be set
 
 Use `padding` instead of `line-height` where possible when applying vertical padding to elements.
 
-Don't make values and selectors hard to override with unecessary specificity (watch your nesting levels).
+Don't make values and selectors hard to override with unnecessary specificity (watch your nesting levels).
 
 When indenting Sass, we stick to the same four (4) spaces, and we also leave a blank line before and after the nested ruleset.
 
@@ -111,7 +111,7 @@ Preferred ordering of properties inside selectors:
 	margin: 0;
 }
 ```
-
+website	
 Comment liberally, explaining decisions for things that may seem odd to fresh eyes. 
 Always use the double-slash format: `// Comment`
 
@@ -120,7 +120,7 @@ Selector Intent is the process of deciding and defining what you want to style a
 - Location Independence
 - Portability
 
-Pick a class name / ID that is sensible, but somewhat ambiguous: aim for high reusability. Using a class name to describe content is redundant because content describes itself.
+Pick a class name / ID that is sensible, but somewhat ambiguous: aim for high re-usability. Using a class name to describe content is redundant because content describes itself.
 
 - Select what you want explicitly, rather than relying on circumstance or coincidence. Good Selector Intent will rein in the reach and leak of your styles.
 - Write selectors for reusability, so that you can work more efficiently and reduce waste and repetition.

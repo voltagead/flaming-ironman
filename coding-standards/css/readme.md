@@ -11,7 +11,6 @@ At a high level, we want:
 - always avoid use of !important;
 - meaningful use of whitespace;
 - high level of reusability
-- 
 
 Leverage the [LiveReload browser extension](http://livereload.com/extensions/) where possible.
 
@@ -144,19 +143,22 @@ Prefer seconds over milliseconds. Ex: `transition: opacity 0.3s;`
 
 ## Comments and Whitespace 
 
-
-- single line between nested and single selectors
 - single line comments use `/* ... */`
 - 1 line of whitespace before comments that are not section headings
+- 1 space after the rule name and before the value:
+```
+.selector {
+	$rule: $value
+}
+```
 - comments heading format:
-
-	```css
-	//------------------------------------------------------
-	// CSS Heading
-	//------------------------------------------------------
-	```
+```
+//------------------------------------------------------
+// CSS Heading
+//------------------------------------------------------
+```
 - 1 line of whitespace between single and nested selectors
-```css
+```
 .section-a {
 	.nested-selector {
 
@@ -168,7 +170,10 @@ Prefer seconds over milliseconds. Ex: `transition: opacity 0.3s;`
 }
 ```
 - 5 lines of whitespace between major sections of code
-```css
+```
+
+
+
 
 
 //------------------------------------------------------

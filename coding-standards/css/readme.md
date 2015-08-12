@@ -11,7 +11,6 @@ At a high level, we want:
 - always avoid use of !important;
 - meaningful use of whitespace;
 - high level of reusability
-- 
 
 Leverage the [LiveReload browser extension](http://livereload.com/extensions/) where possible.
 
@@ -144,19 +143,22 @@ Prefer seconds over milliseconds. Ex: `transition: opacity 0.3s;`
 
 ## Comments and Whitespace 
 
-
-- single line between nested and single selectors
 - single line comments use `/* ... */`
 - 1 line of whitespace before comments that are not section headings
+- 1 space after the rule name and before the value:
+```
+.selector {
+	$rule: $value
+}
+```
 - comments heading format:
-
-	```css
-	//------------------------------------------------------
-	// CSS Heading
-	//------------------------------------------------------
-	```
+```
+//------------------------------------------------------
+// CSS Heading
+//------------------------------------------------------
+```
 - 1 line of whitespace between single and nested selectors
-```css
+```
 .section-a {
 	.nested-selector {
 
@@ -168,7 +170,10 @@ Prefer seconds over milliseconds. Ex: `transition: opacity 0.3s;`
 }
 ```
 - 5 lines of whitespace between major sections of code
-```css
+```
+
+
+
 
 
 //------------------------------------------------------
@@ -214,9 +219,9 @@ A good naming convention will tell you and your team
 Pick a class name / ID that is sensible, but somewhat ambiguous: aim for high re-usability. Using a class name to describe content is redundant because content describes itself. 
 
 Examples: 
-	- `.primary-nav` vs. `.site-nav` 
-	- `.sub-links` vs. `.footer-links`
-	- `.primary-button` vs. `.orange-button`
+- `.primary-nav` vs. `.site-nav` 
+- `.sub-links` vs. `.footer-links`
+- `.primary-button` vs. `.orange-button`
 
 ## Sass
 
@@ -240,7 +245,6 @@ Selector Intent is the process of deciding and defining what you want to style a
 - Reusability
 - Location Independence
 - Portability
-
 - Select what you want explicitly, rather than relying on circumstance or coincidence. Good Selector Intent will rein in the reach and leak of your styles.
 - Write selectors for reusability, so that you can work more efficiently and reduce waste and repetition.
 - Do not nest selectors unnecessarily, because this will increase specificity and affect where else you can use your styles.

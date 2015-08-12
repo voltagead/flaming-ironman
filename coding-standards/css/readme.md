@@ -245,7 +245,6 @@ Selector Intent is the process of deciding and defining what you want to style a
 - Reusability
 - Location Independence
 - Portability
-
 - Select what you want explicitly, rather than relying on circumstance or coincidence. Good Selector Intent will rein in the reach and leak of your styles.
 - Write selectors for reusability, so that you can work more efficiently and reduce waste and repetition.
 - Do not nest selectors unnecessarily, because this will increase specificity and affect where else you can use your styles.

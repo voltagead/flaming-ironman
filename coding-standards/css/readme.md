@@ -219,9 +219,9 @@ A good naming convention will tell you and your team
 Pick a class name / ID that is sensible, but somewhat ambiguous: aim for high re-usability. Using a class name to describe content is redundant because content describes itself. 
 
 Examples: 
-	- `.primary-nav` vs. `.site-nav` 
-	- `.sub-links` vs. `.footer-links`
-	- `.primary-button` vs. `.orange-button`
+- `.primary-nav` vs. `.site-nav` 
+- `.sub-links` vs. `.footer-links`
+- `.primary-button` vs. `.orange-button`
 
 ## Sass
 

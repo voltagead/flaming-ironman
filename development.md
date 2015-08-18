@@ -22,3 +22,7 @@ We want the feature branches to be relatively smaller in size, so they are easie
 ## Documentation
 
 Project-specific documentation (how to compile Sass, how to install the dependencies, etc.) should be documented in the private project's Wiki
+
+## Editor Config
+
+Be sure to install the .editorconfig file found in this repo to maintain consistency

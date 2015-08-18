@@ -14,7 +14,7 @@ Adhere to the [Front End Guidelines for HTML](https://github.com/bendc/frontend-
 Accessibility shouldn't be an afterthought. You can immediately fix the little things that make a huge difference, such as:
 
 - learning to use the alt attribute properly
-- making sure your links and buttons are marked as such (no <div class=button> atrocities)
+- making sure your links and buttons are marked as such (no <div class="button"> atrocities)
 - not relying exclusively on colors to communicate information
-- explicitly labelling form controls
+- explicitly labeling form controls
 

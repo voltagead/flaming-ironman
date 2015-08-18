@@ -114,6 +114,39 @@ When indenting Sass, we stick to the same four (4) spaces, and we also leave a b
 
 `!important` should be the nuclear option. Avoid if possible.
 
+Single space after the selector and curly bracket
+
+```
+/* Correct */
+.class-name {
+	...
+}
+
+/* Incorrect */
+.class-name{ 
+
+}
+
+.class-name
+{
+
+}
+```
+
+Single space after the `:` and before the rule value
+
+```
+.class-name {
+	/* Correct */
+	display: none;
+
+	/* Incorrect */
+	display:none;
+	display : none;
+	display :none;
+}
+```
+
 Use shorthand properties and avoid using multiple properties when it's not needed:
 
 ```css
@@ -122,10 +155,10 @@ Use shorthand properties and avoid using multiple properties when it's not neede
 	margin: 0 0 30px 20px;
 
 	/* incorrect */
-	padding-top: 0;
-	padding-right: 0;
-	padding-bottom: 30px;
-	padding-left: 20px;
+	margin-top: 0;
+	margin-right: 0;
+	margin-bottom: 30px;
+	margin-left: 20px;
 }
 ```
 

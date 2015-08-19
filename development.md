@@ -21,7 +21,9 @@ We want the feature branches to be relatively smaller in size, so they are easie
 
 ## Documentation
 
-Project-specific documentation (how to compile Sass, how to install the dependencies, etc.) should be documented in the private project's Wiki
+Project-specific documentation (how to compile Sass, how to install the dependencies, etc.) should be documented in the private project's Wiki.
+
+You can use the wiki template found within the root of this repository.
 
 ## Editor Config
 

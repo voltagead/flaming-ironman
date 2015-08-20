@@ -17,6 +17,7 @@ We want the feature branches to be relatively smaller in size, so they are easie
 	- Code adhering to company development standards
 	- Opportunities for code improvement (optimizations, alternative approaches, etc.)
 7. When discussion concludes (if applicable) and the code is ready to be merged into master, the reviewer should indicate their approval in the PR and the person who created the PR should merge in the files and close it.
+8. Delete the completed branch from GitHub so we know which branches are in active development.
 
 
 ## Documentation

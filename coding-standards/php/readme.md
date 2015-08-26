@@ -1,7 +1,7 @@
 
 # PHP Standards
 
-To match WordPress convention, we should adhere to the [WordPress PHP Coding Standards](https://make.wordpress.org/core/handbook/coding-standards/php/). 
+To match WordPress convention, we should adhere to the [WordPress PHP Coding Standards](https://make.wordpress.org/core/handbook/coding-standards/php/).
 
 No Shorthand PHP Tags: `<?=$var ?>` or `<? function() ?>`
 
@@ -49,6 +49,25 @@ endif;
 ```
 
 Note that requiring the use of braces (or colons) just means that *single-statement inline control structures are prohibited*.
+
+Nesting should follow html and php as follows. PHP will open on the same line as the next nested element should. each subsequent "child" should be nested in the same way. Note: Use single PHP blocks as much as possible to descrease some response time.
+```
+<ul>
+	<?php
+		foreach :
+			if () :
+	?>
+				<li>Example</li>
+
+				<?php if () :?>
+					<li>Example</li>
+				<?php endif; ?>
+	<?php
+			endif;
+		endforeach;
+	?>
+</ul>
+```
 
 When doing logical comparisons, always put the variable on the right side, constants or literals on the left ([yoda conditions](https://make.wordpress.org/core/handbook/coding-standards/php/#yoda-conditions)):
 

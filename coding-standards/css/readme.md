@@ -20,13 +20,13 @@ Split discrete chunks of code into their own files, which are concatenated durin
 
 Use hyphen case, not camel or underscore (snake)
 
-For string use double quotes vs single quotes
+For string use single quotes vs double quotes
 
 Correct: 
-`font-family: "DINWebPro-CondMedium", Helvetica, sans-serif;`
+`font-family: 'DINWebPro-CondMedium', Helvetica, sans-serif;`
 
 Incorrect:
-`font-family: 'DINWebPro-CondMedium', Helvetica, sans-serif;`
+`font-family: "DINWebPro-CondMedium", Helvetica, sans-serif;`
 
 Sections of code should be organized and ordered in a manner that corresponds to the html
 
@@ -46,9 +46,9 @@ Sections of code should be organized and ordered in a manner that corresponds to
 
 /******* CSS ********/
 
-/************************/
-/** CSS Header section **/
-/************************/
+/*****************
+CSS Header section
+******************/
 .main-header {
 	/* ... */	
 }
@@ -57,9 +57,9 @@ Sections of code should be organized and ordered in a manner that corresponds to
 
 
 
-/*****************/
-/** CSS Content **/
-/*****************/
+/**********
+CSS Content 
+**********/
 .main-content {
 	/* ... */
 }
@@ -68,9 +68,9 @@ Sections of code should be organized and ordered in a manner that corresponds to
 
 
 
-/****************/
-/** CSS Footer **/
-/****************/
+/************
+CSS Footer
+************/
 .main-footer {
 	/* ... */
 }
@@ -195,9 +195,9 @@ Prefer seconds over milliseconds. Ex: `transition: opacity 0.3s;`
 ```
 - comments heading format:
 ```
-/*****************/
-/** CSS Heading **/
-/*****************/
+/**********
+CSS Heading
+**********/
 ```
 - 1 line of whitespace between single and nested selectors
 ```
@@ -218,9 +218,9 @@ Prefer seconds over milliseconds. Ex: `transition: opacity 0.3s;`
 
 
 
-/*****************************************/
-/** CSS Heading - Major section of code **/
-/*****************************************/
+/**************************************
+CSS Heading - Major section of code 
+**************************************/
 .section-b {
 	.nested-selector {
 

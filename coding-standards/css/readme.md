@@ -20,6 +20,14 @@ Split discrete chunks of code into their own files, which are concatenated durin
 
 Use hyphen case, not camel or underscore (snake)
 
+For string use double quotes vs single quotes
+
+Correct: 
+`font-family: "DINWebPro-CondMedium", Helvetica, sans-serif;`
+
+Incorrect:
+`font-family: 'DINWebPro-CondMedium', Helvetica, sans-serif;`
+
 Sections of code should be organized and ordered in a manner that corresponds to the html
 
 ```
@@ -37,9 +45,10 @@ Sections of code should be organized and ordered in a manner that corresponds to
 </section>
 
 /******* CSS ********/
-//------------------------------------------------------
-// CSS Header section
-//------------------------------------------------------
+
+/************************/
+/** CSS Header section **/
+/************************/
 .main-header {
 	/* ... */	
 }
@@ -48,9 +57,9 @@ Sections of code should be organized and ordered in a manner that corresponds to
 
 
 
-//------------------------------------------------------
-// CSS Content
-//------------------------------------------------------
+/*****************/
+/** CSS Content **/
+/*****************/
 .main-content {
 	/* ... */
 }
@@ -59,16 +68,16 @@ Sections of code should be organized and ordered in a manner that corresponds to
 
 
 
-//------------------------------------------------------
-// CSS Footer
-//------------------------------------------------------
+/****************/
+/** CSS Footer **/
+/****************/
 .main-footer {
 	/* ... */
 }
 
 ```
 
-If there are multiple selectors, place one selector per line. Exceptions to this rule should be fairly apparent, such as similar rulesets that only carry one declaration each.
+If there are multiple selectors, place one selector per line. Exceptions to this rule should be fairly apparent, such as similar rule sets that carry only one declaration each.
 
 ```css
 .first-item,
@@ -186,9 +195,9 @@ Prefer seconds over milliseconds. Ex: `transition: opacity 0.3s;`
 ```
 - comments heading format:
 ```
-//------------------------------------------------------
-// CSS Heading
-//------------------------------------------------------
+/*****************/
+/** CSS Heading **/
+/*****************/
 ```
 - 1 line of whitespace between single and nested selectors
 ```
@@ -209,9 +218,9 @@ Prefer seconds over milliseconds. Ex: `transition: opacity 0.3s;`
 
 
 
-//------------------------------------------------------
-// CSS Heading - Major section of code
-//------------------------------------------------------
+/*****************************************/
+/** CSS Heading - Major section of code **/
+/*****************************************/
 .section-b {
 	.nested-selector {
 
@@ -226,6 +235,14 @@ Prefer seconds over milliseconds. Ex: `transition: opacity 0.3s;`
 
 }
 ```
+
+Single spaces between anything that is a list of rules
+
+Correct:
+`font-family: "DINWebPro-CondMedium", Helvetica, sans-serif;`
+
+Incorrect: 
+`font-family:"DINWebPro-CondMedium",Helvetica,sans-serif;`
 
 ## Specificity
 

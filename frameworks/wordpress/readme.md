@@ -5,8 +5,8 @@ This is info about WordPress development as it pertains to Voltage
 - [Coding Standards](../../coding-standards/php/)
 - [Plugins](plugins.md) - approved, restricted
 - [Starter Theme](https://github.com/voltagead/faraday-cage)
-- Prelaunch Checklist:
-	- Get GTM code specific to client account and add to footer.php
+- [Pre-Launch Checklist](pre-launch-checklist.md)
+
 - Procedures for updating clients' WordPress instances and related plugins
 
 To consider:

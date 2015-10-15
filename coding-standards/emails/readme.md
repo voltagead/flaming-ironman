@@ -5,7 +5,7 @@
 		- Framework __not__ required for static-width emails
 		- [Guidelines for working with Ink](https://scotch.io/tutorials/building-responsive-email-templates-with-ink)
 		- [CSS for Ink at 650px wide](https://gist.github.com/rx/10542978)
-		- [Mailchimp's Inline CSS tool](http://templates.mailchimp.com/resources/inline-css/) - for Gmail/Outlook clients that strip out CSS classes
+		- [Zurb's Inline CSS tool](http://zurb.com/ink/inliner.php) - for Gmail/Outlook clients that strip out CSS classes
 2. Test
 	- Test in modern browsers (Chrome, FF, Safari, IE9+, etc.)
 	- Review the email in [Litmus](https://litmus.com/), make updates as necessary

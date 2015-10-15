@@ -15,9 +15,12 @@ Internal Information for use by Voltage
 	- [CSS](coding-standards/css/)
 	- [JavaScript](coding-standards/js/)
 	- [PHP](coding-standards/php/)
-	- QA
+	- QA/Testing
+	- [HTML Emails](coding-standards/emails)
 - Frameworks
 	- [WordPress](frameworks/wordpress/)
 		- [Plugins](frameworks/wordpress/plugins.md)
+		- [Pre-Lauch Checklist](frameworks/wordpress/pre-launch-checklist.md)
 	- [Laravel](frameworks/laravel/)
 - [Code Snippets](snippets/)
+- [Wiki Template](wiki-template.md)

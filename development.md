@@ -26,6 +26,19 @@ Project-specific documentation (how to compile Sass, how to install the dependen
 
 You can use the wiki template found within the root of this repository.
 
+
 ## Editor Config
 
 Be sure to install the .editorconfig file found in this repo to maintain consistency
+
+
+## Voltage Web Servers
+
+- [mediaopz](http://mediaopz.com/) - Voltage's self-hosted Interspire email hosting platform, since replaced with Mailchimp. Also contains Shopify code and any code needed to review publicly.
+- [voltagead](https://ac.mediatemple.net/login.mt?redirect=home.mt) - Media Temple GS account that hosts a number of sites
+- [voltageapps](https://ac.mediatemple.net/login.mt?redirect=home.mt) - Media Template GS account that hosts a number of sites
+- [wpengine](http://my.wpengine.com) - Account that hosts a number of WordPress sites
+- Rackspace - Host for Chipotle site(s)
+- Acquia Cloud - Host for Drupal sites (Bold Earth, etc.)
+- Digital Ocean - For internal use
+

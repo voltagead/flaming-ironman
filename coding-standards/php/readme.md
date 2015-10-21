@@ -9,7 +9,7 @@ Remove trailing whitespace at the end of each line of code.
 
 Omitting the closing PHP tag at the end of a file is preferred. If you use the tag, make sure you remove trailing whitespace.
 
-Put spaces on both sides of the opening and closing parenthesis of `if`, `elseif`, `foreach`, `for`, and `switch` blocks: `if ( $conditional )`
+Put spaces on both sides of the opening and closing parenthesis of `if`, `elseif`, `foreach`, `for`, and `switch` blocks: `if ( $conditional ) {`
 
 When referring to array items, only include a space around the index if it is a variable:
 ```php

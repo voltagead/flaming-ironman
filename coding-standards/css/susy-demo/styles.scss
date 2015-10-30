@@ -13,7 +13,13 @@ $max-width: 1200px;
 $susy: (
 	columns: 12,
 	container: $max-width,
-	gutters: 1/2
+	gutters: 1/2,
+	debug: (
+		image: show-columns,
+		color: blue,
+		output: overlay,
+		toggle: top right
+	)
 );
 
 @mixin breakpoint($bp, $direction: min) {

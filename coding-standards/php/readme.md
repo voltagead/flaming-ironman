@@ -105,7 +105,7 @@ Multi line curly brackets between opening and closing html tags with heavy logic
 <div class="
 	<?php
 		if ( $foo ) {
-			if ( $AnotherFoo ) {
+			if ( $another_foo ) {
 				echo "Another Foo";
 			}
 			echo "Foo";

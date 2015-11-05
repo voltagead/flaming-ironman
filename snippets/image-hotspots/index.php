@@ -22,8 +22,8 @@
 			var naturalWidth = this.width;
 			$( '.im-wrapper .hotspot' ).each( function() {
 				var $this = $( this );
-				var x = ( $this.attr('data-x') / naturalWidth ) * 100;
-				var y = ( $this.attr('data-y') / naturalHeight ) * 100;
+				var x = ( $this.attr( 'data-x' ) / naturalWidth ) * 100;
+				var y = ( $this.attr( 'data-y' ) / naturalHeight ) * 100;
 				$this.css( 'top', y+'%' ).css( 'left', x+'%' );
 			} );
 		}

@@ -92,7 +92,7 @@ $my_array = array(
 
 ### View Logic
 
-When using html within view logic, use ternary.
+When using html within view logic, use colon syntax.
 
 When logic exists between open and close html tags, use curly brackets.
 
@@ -118,7 +118,7 @@ Multi line curly brackets between opening and closing html tags with heavy logic
 "></div>
 ```
 
-#### Single line ternary
+#### Single line colon syntax
 
 ```
 <ul>
@@ -128,7 +128,7 @@ Multi line curly brackets between opening and closing html tags with heavy logic
 </ul>
 ```
 
-#### Multiple line ternary with mixed curly brackets
+#### Multiple line colon syntax with mixed curly brackets
 
 ```
 <div class="list">

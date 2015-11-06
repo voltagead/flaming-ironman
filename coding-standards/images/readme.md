@@ -8,13 +8,13 @@ The goal of Semantic Image Naming is to make large numbers of images easier to d
 
 In general, the pattern to follow is [where]-[what]-[name].jpg.
 
-[Where] is specific to the location/module on a page the image is found, without naming the page itself. callout-img-chef.jpg provides a pretty good notion of where the image is being used - homepagecalloutleft-img-chef.jpg is cumbersome and overly specific, and may be incorrect if the image is used elsewhere on the site.
+[Where] is specific to the location/module on a page the image is found, without naming the page itself. `callout-img-chef.jpg` provides a pretty good notion of where the image is being used - `homepagecalloutleft-img-chef.jpg` is cumbersome and overly specific, and may be incorrect if the image is used elsewhere on the site.
 
 [What] is the general role of the image, to differentiate between things like hero images, icons, and backgrounds.
 
 [Name] is basically the id of the image, to differentiate between images of the same location and role. e.g. article-gallery-cooking.jpg and article-gallery-food.jpg
 
-For more generic and multipurpose images, it's fine to leave off the [where]. icon-[name].jpg and sprite-[name].png still keep everything grouped together and provide adequate information about what/where the image is.
+For more generic and multipurpose images, it's fine to leave off the [where]. `icon-[name].jpg` and `sprite-[name].png` still keep everything grouped together and provide adequate information about what/where the image is.
 
 ## FPO Images
 

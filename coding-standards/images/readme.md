@@ -52,8 +52,8 @@ icon-map.png
 icon-search.png
 logo-footer.png
 logo-main.png
-sprite-header.png
-sprite-social.png
 pattern-blue.jpg
 pattern-green.jpg
+sprite-header.png
+sprite-social.png
 ```

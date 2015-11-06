@@ -42,9 +42,9 @@ social-sprite.png
 
 Good:
 ```
-article-header-chefs.jpg
 article-gallery-cooking.jpg
 article-gallery-food.jpg
+article-header-chefs.jpg
 callout-img-chef.png
 header-hero-main.jpg
 header-hero-secondary.jpg

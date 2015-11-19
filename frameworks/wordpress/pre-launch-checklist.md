@@ -2,8 +2,7 @@
 
 Go through this list as you are preparing to launch a website
 
-## SEO
-
+- [ ] Lower TTL in preparation for DNS switch
 - [ ] Cross-browser testing complete
 - [ ] Multiple device testing complete
 - [ ] 301 redirects added

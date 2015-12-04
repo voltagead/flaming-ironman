@@ -14,7 +14,18 @@ Adhere to the [Front End Guidelines for HTML](https://github.com/bendc/frontend-
 Accessibility shouldn't be an afterthought. You can immediately fix the little things that make a huge difference, such as:
 
 - learning to use the alt attribute properly
-- making sure your links and buttons are marked as such (no <div class="button"> atrocities)
+- making sure your links and buttons are marked as such (no `<div class="button">` atrocities)
 - not relying exclusively on colors to communicate information
 - explicitly labeling form controls
 
+
+## Image Guidelines
+
+- Use the proper format for the image. In general, pngs should be used for images with flat colors (a lot of things you would make in Illustrator), while jpgs should be used for photos or graphics with gradients or a lot of colors. Don't use gif unless it's animating (and only use those sparingly).  (http://www.sitepoint.com/gif-png-jpg-which-one-to-use/)
+	- SVGs are your friend. They look great no matter their size. But they also can get heavy if the shape(s) are very complex.
+- Optimize / compress your images. 
+	- If using a task runner, this can be put in as one of your tasks.
+	- Otherwise you can run optimization through the command line (http://www.clock.co.uk/blog/optimise-your-pngs-from-the-terminal-in-osx)
+- Try not to stretch images bigger than their actual size.
+- If you're using a ton of images, consider lazy loading them after the basics of the page load.
+- As noted above, all `<img>s` should have a proper alt attribute

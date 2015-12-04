@@ -18,3 +18,7 @@ Accessibility shouldn't be an afterthought. You can immediately fix the little t
 - not relying exclusively on colors to communicate information
 - explicitly labeling form controls
 
+## Standard page / filesize
+- page size should be no larger then 2MB
+- images should be no larger then 600KB
+- make sure to run images through an image optimizer 

@@ -32,6 +32,11 @@ You can use the wiki template found within the root of this repository.
 Be sure to install the .editorconfig file found in this repo to maintain consistency
 
 
+## QA and Testing
+
+In addition to frequent pull requests and code review every project needs to be QA'd by a developer before delivery. The development QA process must includes the following: browser testing, device testing, functional testing, responsive testing (if applicable), and accuracy to original design. If not specified then browser testing need to include the latest of the following browsers, Firefox, Chrome, Safari, and IE. Device testing need to include >= iPhone 3 and Android.
+
+
 ## Voltage Web Servers
 
 - [mediaopz](http://mediaopz.com/) - Voltage's self-hosted Interspire email hosting platform, since replaced with Mailchimp. Also contains Shopify code and any code needed to review publicly.

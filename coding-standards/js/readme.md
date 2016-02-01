@@ -25,6 +25,7 @@ Refer to the [jQuery](http://contribute.jquery.org/style-guide/js/) style guide.
 - New line at the end of each file.
 - Function spacing `function foo( $param1, $param2 ) { ... }` and `if ( $var1 == $var2 ) { ... }`
 - Single quotes for strings unless you have a good reason to use double quotes
+- JSON string requires double quotes
 
 ```js
 var i = 0;

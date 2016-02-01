@@ -25,6 +25,13 @@ $thisIsIncorrect;
 
 Always use single quotes for strings unless you have a specific reason to use double quotes 
 
+Concatenate variables and control characters to single quoted strings
+```php
+$string = 'lorem ipsum' . "\r\n";
+$string2 = 'lorem' . $ipsum;
+
+```
+
 Files should be named descriptively using lowercase letters. Hyphens should separate words.
 
 Else/elseif statements should be on the same line as the closing bracket:

@@ -23,6 +23,8 @@ $this_is_correct;
 $thisIsIncorrect;
 ```
 
+Always use single quotes for strings unless you have a specific reason to use double quotes 
+
 Files should be named descriptively using lowercase letters. Hyphens should separate words.
 
 Else/elseif statements should be on the same line as the closing bracket:
@@ -108,9 +110,9 @@ Multi line curly brackets between opening and closing html tags with heavy logic
 			if ( $another_foo ) {
 				echo "Another Foo";
 			}
-			echo "Foo";
+			echo 'Foo';
 		} elseif ( $bar ) {
-			echo "Bar"
+			echo 'Bar';
 		} else {
 			echo "Nothing";
 		}

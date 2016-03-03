@@ -22,6 +22,7 @@ Refer to the [jQuery](http://contribute.jquery.org/style-guide/js/) style guide.
 - Any `:` after a property name in an object definition must not have preceding space.
 - The `?` and `:` in a ternary conditional must have space on both sides.
 - No filler spaces in empty constructs (e.g., `{}`, `[]`, `fn()`)
+- For arrays, use spacing for variables and complex statements - single strings or integers don't need space (eg `a[ i ]`, `b[ 'key' + i ]`, `c[0]`, `d['key']`)
 - New line at the end of each file.
 - Function spacing `function foo( $param1, $param2 ) { ... }` and `if ( $var1 == $var2 ) { ... }`
 - No function spacing for single json configuration objects (e.g., `slick({ ... })` not `slick( { ... } )`)

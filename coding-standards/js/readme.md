@@ -20,7 +20,7 @@ Refer to the [jQuery](http://contribute.jquery.org/style-guide/js/) style guide.
 - Any `,` and `;` must not have preceding space.
 - Any `;` used as a statement terminator must be at the end of the line.
 - Any `:` after a property name in an object definition must not have preceding space.
-- The `?` and `:` in a ternary conditional must have space on both sides.
+- _Don't use ternary_ - but if you have to, the `?` and `:` in a ternary conditional should have a space on both sides.
 - No filler spaces in empty constructs (e.g., `{}`, `[]`, `fn()`)
 - For arrays, use spacing for variables and complex statements - single strings or integers don't need space (eg `a[ i ]`, `b[ 'key' + i ]`, `c[0]`, `d['key']`)
 - New line at the end of each file.

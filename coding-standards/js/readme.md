@@ -24,6 +24,7 @@ Refer to the [jQuery](http://contribute.jquery.org/style-guide/js/) style guide.
 - No filler spaces in empty constructs (e.g., `{}`, `[]`, `fn()`)
 - New line at the end of each file.
 - Function spacing `function foo( $param1, $param2 ) { ... }` and `if ( $var1 == $var2 ) { ... }`
+- No function spacing for single json configuration objects (e.g., `slick({ ... })` not `slick( { ... } )`)
 - Single quotes for strings unless you have a good reason to use double quotes
 - Concatenate variables and control characters to single quoted strings
 - JSON string requires double quotes

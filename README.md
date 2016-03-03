@@ -12,6 +12,7 @@ Internal Information for use by Voltage
 - [Tech Talk](tech-talk.md)
 - Coding Standards
 	- [HTML](coding-standards/html/)
+	- [Images](coding-standards/images/)
 	- [CSS](coding-standards/css/)
 	- [JavaScript](coding-standards/js/)
 	- [PHP](coding-standards/php/)

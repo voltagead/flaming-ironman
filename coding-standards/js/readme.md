@@ -45,19 +45,17 @@ while ( !condition ) {
     iterating++;
 }
  
-for ( ; i < 100; i++ ) {
+for ( var i = 0; i < 100; i++ ) {
     object[ array[ i ] ] = someFn( i );
 }
  
 try {
- 
     // Expressions
 } catch ( e ) {
- 
     // Expressions
 }
  
-array = [ "*" ];
+array = ['*'];
  
 array = [ a, b ];
  
@@ -65,24 +63,22 @@ foo( arg );
  
 foo( options, object[ property ] );
  
-foo( [ a, b ], "property", { c: d } );
+foo( [ a, b ], 'property', { c: d } );
  
-foo( { a: "alpha", b: "beta" } );
+foo({ a: 'alpha', b: 'beta' });
  
 foo( [ a, b ] );
  
-foo( {
-    a: "alpha",
-    b: "beta"
-} );
+foo({
+    a: 'alpha',
+    b: 'beta'
+});
  
 foo( function() {
- 
     // Do stuff
 }, options );
  
 foo( data, function() {
- 
     // Do stuff
 } );
 
@@ -129,11 +125,11 @@ Chained method calls
 
 ```js
 elements
-    .addClass( "foo" )
+    .addClass( 'foo' )
     .children()
-        .html( "hello" )
+		.html( 'hello' )
     .end()
-    .appendTo( "body" );
+    .appendTo( 'body' );
 ```
 
 

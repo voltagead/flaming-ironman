@@ -20,10 +20,12 @@ Refer to the [jQuery](http://contribute.jquery.org/style-guide/js/) style guide.
 - Any `,` and `;` must not have preceding space.
 - Any `;` used as a statement terminator must be at the end of the line.
 - Any `:` after a property name in an object definition must not have preceding space.
-- The `?` and `:` in a ternary conditional must have space on both sides.
+- _Don't use ternary_ - but if you have to, the `?` and `:` in a ternary conditional should have a space on both sides.
 - No filler spaces in empty constructs (e.g., `{}`, `[]`, `fn()`)
+- For arrays, use spacing for variables and complex statements - single strings or integers don't need space (eg `a[ i ]`, `b[ 'key' + i ]`, `c[0]`, `d['key']`)
 - New line at the end of each file.
 - Function spacing `function foo( $param1, $param2 ) { ... }` and `if ( $var1 == $var2 ) { ... }`
+- No function spacing for single json configuration objects (e.g., `slick({ ... })` not `slick( { ... } )`)
 - Single quotes for strings unless you have a good reason to use double quotes
 - Concatenate variables and control characters to single quoted strings
 - JSON string requires double quotes
@@ -43,19 +45,17 @@ while ( !condition ) {
     iterating++;
 }
  
-for ( ; i < 100; i++ ) {
+for ( var i = 0; i < 100; i++ ) {
     object[ array[ i ] ] = someFn( i );
 }
  
 try {
- 
     // Expressions
 } catch ( e ) {
- 
     // Expressions
 }
  
-array = [ "*" ];
+array = ['*'];
  
 array = [ a, b ];
  
@@ -63,24 +63,22 @@ foo( arg );
  
 foo( options, object[ property ] );
  
-foo( [ a, b ], "property", { c: d } );
+foo( [ a, b ], 'property', { c: d } );
  
-foo( { a: "alpha", b: "beta" } );
+foo({ a: 'alpha', b: 'beta' });
  
 foo( [ a, b ] );
  
-foo( {
-    a: "alpha",
-    b: "beta"
-} );
+foo({
+    a: 'alpha',
+    b: 'beta'
+});
  
 foo( function() {
- 
     // Do stuff
 }, options );
  
 foo( data, function() {
- 
     // Do stuff
 } );
 
@@ -127,11 +125,11 @@ Chained method calls
 
 ```js
 elements
-    .addClass( "foo" )
+    .addClass( 'foo' )
     .children()
-        .html( "hello" )
+		.html( 'hello' )
     .end()
-    .appendTo( "body" );
+    .appendTo( 'body' );
 ```
 
 

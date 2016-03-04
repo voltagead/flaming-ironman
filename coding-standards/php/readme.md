@@ -11,9 +11,25 @@ Omitting the closing PHP tag at the end of a file is preferred. If you use the t
 
 Put spaces on both sides of the opening and closing parenthesis of `if`, `elseif`, `foreach`, `for`, and `switch` blocks: `if ( $conditional ) {`
 
-When referring to array items, only include a space around the index if it is a variable:
+Function spacing rules apply - function definitions and calls should have space inside the `()`:
 ```php
+$x->someFunction( $i );
+$x->someFunction( 'alpha', 'beta' );
+function doTheThing( $a, $b ) {
+```
+
+Function spacing does not apply for empty `()`, or for json configuration objects:
+```php
+$x->someFunction();
+$x->someFunction({ ... });
+```
+
+When referring to array items, include a space around the index if it is a variable or complex statement. Single-string and integer keys don't need space:
+```php
+$x = $foo[0]; // correct
 $x = $foo['bar']; // correct
+$x = $foo[ i ]; // correct
+$x = $foo[ 'bar' . i ]; // correct
 $x = $foo[ 'bar' ]; // incorrect
 ```
 

@@ -20,15 +20,16 @@ Split discrete chunks of code into their own files, which are concatenated durin
 
 Use hyphen case, not camel or underscore (snake)
 
-For string use single quotes vs double quotes
+For string use double quotes vs single quotes. Never use NO quotes. 
 
 Correct: 
-`font-family: 'DINWebPro-CondMedium', Helvetica, sans-serif;`
-
-Incorrect:
 `font-family: "DINWebPro-CondMedium", Helvetica, sans-serif;`
 
-Sections of code should be organized and ordered in a manner that corresponds to the html
+Incorrect:
+`font-family: 'DINWebPro-CondMedium', Helvetica, sans-serif;`
+`font-family: DINWebPro-CondMedium, Helvetica, sans-serif;`
+
+Sections of code should be organized and ordered in a manner that corresponds to the HTML
 
 ```
 /******* HTML *******/

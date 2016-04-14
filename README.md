@@ -28,4 +28,5 @@ Our standards are well-enough established that the only changes necessary will b
 		- [Pre-Lauch Checklist](frameworks/wordpress/pre-launch-checklist.md)
 	- [Laravel](frameworks/laravel/)
 - [Code Snippets](snippets/)
+- [Chrome Plugins](chrome/)
 - [Wiki Template](wiki-template.md)

@@ -8,7 +8,7 @@ Our standards are well-enough established that the only changes necessary will b
 1. Fork this repository to your account
 2. Make your suggestions
 3. Create a pull request
-4. Post a link to the pull request into the `#pull-requests` channel in Slack for discussion, tagging everyone in the channel with an `@group` mention
+4. Post a link to the pull request into the `#development` channel in Slack for discussion, tagging everyone in the channel with an `@group` mention
 5. Once the pull request has been approved and merged into master, send an email to <a href="mailto:dev@voltagead.com">dev@voltagead.com</a> with subject "Dev's Please Read - Update to Flaming-Ironman". Then outline the new additions in the group email so everyone is aware of what changed.
 
 ## Table of Contents

@@ -120,4 +120,5 @@ Displays the number of unread messages in your Google Mail inbox. You can also c
 
 [Plugin Link](https://chrome.google.com/webstore/detail/google-mail-checker/mihcahmgecmbnbcchbopgniflfhgnkff)
 
+<br>
 ***

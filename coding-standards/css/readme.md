@@ -20,7 +20,7 @@ Split discrete chunks of code into their own files, which are concatenated durin
 
 Use hyphen case, not camel or underscore (snake)
 
-For string use double quotes vs single quotes. Never use NO quotes. 
+For string use double quotes in css/scss. Don't use single quotes or NO quotes. 
 
 Correct: 
 `font-family: "DINWebPro-CondMedium", Helvetica, sans-serif;`

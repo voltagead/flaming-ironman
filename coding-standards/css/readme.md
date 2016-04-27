@@ -20,14 +20,16 @@ Split discrete chunks of code into their own files, which are concatenated durin
 
 Use hyphen case, not camel or underscore (snake)
 
-For string use double quotes in css/scss. Don't use single quotes or NO quotes. 
+For string use double quotes in css/scss. Don't use single quotes or NO quotes.
 
-Correct: 
-`font-family: "DINWebPro-CondMedium", Helvetica, sans-serif;`
+Correct:
+`font-family: "DINWebPro-CondMedium", Arial, Helvetica, sans-serif;`
 
 Incorrect:
-`font-family: 'DINWebPro-CondMedium', Helvetica, sans-serif;`
-`font-family: DINWebPro-CondMedium, Helvetica, sans-serif;`
+`font-family: 'DINWebPro-CondMedium', Arial, Helvetica, sans-serif;`
+`font-family: DINWebPro-CondMedium, Arial, Helvetica, sans-serif;`
+
+_Font Family Tip:_ Make sure you use "Web Safe" fallback fonts when using custom fonts. [Click here](web-safe-fonts.md) to see a page of web safe font families.
 
 Sections of code should be organized and ordered in a manner that corresponds to the HTML
 
@@ -51,7 +53,7 @@ Sections of code should be organized and ordered in a manner that corresponds to
 CSS Header section
 ******************/
 .main-header {
-	/* ... */	
+	/* ... */
 }
 
 
@@ -59,7 +61,7 @@ CSS Header section
 
 
 /**********
-CSS Content 
+CSS Content
 **********/
 .main-content {
 	/* ... */
@@ -105,7 +107,7 @@ For media queries, use `min-width`s when possible (mobile first):
 
 	@include breakpoint(min-width 720px) {
 		display: inline-block;
-	}	
+	}
 
 	@include breakpoint(min-width 990px) {
 		display: block;
@@ -133,7 +135,7 @@ Single space after the selector and curly bracket
 }
 
 /* Incorrect */
-.class-name{ 
+.class-name{
 
 }
 
@@ -184,7 +186,7 @@ font-size: 1.8rem;
 
 Prefer seconds over milliseconds. Ex: `transition: opacity 0.3s;`
 
-## Comments and Whitespace 
+## Comments and Whitespace
 
 - single line comments use `/* ... */`
 - 1 line of whitespace before comments that are not section headings
@@ -209,7 +211,7 @@ CSS Heading
 }
 
 .single-selector {
-	
+
 }
 ```
 - 5 lines of whitespace between major sections of code
@@ -220,7 +222,7 @@ CSS Heading
 
 
 /**************************************
-CSS Heading - Major section of code 
+CSS Heading - Major section of code
 **************************************/
 .section-b {
 	.nested-selector {
@@ -242,16 +244,16 @@ Single spaces between anything that is a list of rules
 Correct:
 `font-family: "DINWebPro-CondMedium", Helvetica, sans-serif;`
 
-Incorrect: 
+Incorrect:
 `font-family:"DINWebPro-CondMedium",Helvetica,sans-serif;`
 
 ## Specificity
 
-Always try and keep specificity as low as possible at all times. 
+Always try and keep specificity as low as possible at all times.
 
 Don't make values and selectors hard to override with unnecessary specificity (watch your nesting levels).
 
-Rules: 
+Rules:
 - use only classes for css selectors, never ID's
 - avoid un-necessary "nesting"
 	- nesting meaning child and descendant selectors or actual nesting in sass
@@ -267,10 +269,10 @@ A good naming convention will tell you and your team
 - where a class can be used;
 - what (else) a class might be related to.
 
-Pick a class name / ID that is sensible, but somewhat ambiguous: aim for high re-usability. Using a class name to describe content is redundant because content describes itself. 
+Pick a class name / ID that is sensible, but somewhat ambiguous: aim for high re-usability. Using a class name to describe content is redundant because content describes itself.
 
-Examples: 
-- `.primary-nav` vs. `.site-nav` 
+Examples:
+- `.primary-nav` vs. `.site-nav`
 - `.sub-links` vs. `.footer-links`
 - `.primary-button` vs. `.orange-button`
 
@@ -288,8 +290,8 @@ Preferred ordering of properties inside selectors:
 	margin: 0;
 }
 ```
-website	
-Comment liberally, explaining decisions for things that may seem odd to fresh eyes. 
+website
+Comment liberally, explaining decisions for things that may seem odd to fresh eyes.
 Always use the double-slash format: `// Comment`
 
 Selector Intent is the process of deciding and defining what you want to style and how you will go about selecting it. This helps with:

@@ -27,6 +27,11 @@ Our standards are well-enough established that the only changes necessary will b
 		- [Plugins](frameworks/wordpress/plugins.md)
 		- [Pre-Lauch Checklist](frameworks/wordpress/pre-launch-checklist.md)
 	- [Laravel](frameworks/laravel/)
+- SEO
+	- [SEO Guide](seo/guide/)
+	- [KPI](seo/kpi/)
+	- [Google Analytics](seo/ga/)
 - [Code Snippets](snippets/)
 - [Chrome Plugins](chrome/)
+- [Sublime](sublime/)
 - [Wiki Template](wiki-template.md)

@@ -1,6 +1,6 @@
 #SEO Table of Contents
 
 - SEO
-	- [SEO Guide](seo/guide/)
-	- [KPI](seo/kpi/)
-	- [Google Analytics](seo/ga/)
+	- [SEO Guide](guide/)
+	- [KPI](kpi/)
+	- [Google Analytics](ga/)

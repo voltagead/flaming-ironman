@@ -27,7 +27,7 @@ font-family: Tahoma, Geneva, sans-serif;
 
 <img src="img/century-gothic.png">
 ```css
-font-family: Century Gothic, sans-serif;
+font-family: "Century Gothic", sans-serif;
 ```
 
 ---
@@ -69,7 +69,7 @@ font-family: Verdana, Geneva, sans-serif;
 
 <img src="img/copperplate-gothic-light.png">
 ```css
-font-family: Copperplate / Copperplate Gothic Light, sans-serif;
+font-family: "Copperplate / Copperplate Gothic Light", sans-serif;
 ```
 
 ---
@@ -83,7 +83,7 @@ font-family: "Lucida Console", Monaco, monospace;
 
 <img src="img/gill-sans.png">
 ```css
-font-family: Gill Sans / Gill Sans MT, sans-serif;
+font-family: "Gill Sans / Gill Sans MT", sans-serif;
 ```
 
 ---

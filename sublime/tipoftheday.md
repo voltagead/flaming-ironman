@@ -8,3 +8,16 @@ Today I wanted to talk about how to sort CSS. Most of the time we don't care how
 
 In SublimeText, you can select CSS properties and then hit ( F5 on Mac ) || ( F9 on PC ) to sort the properties alphabetical.
 <img src="http://media02.hongkiat.com/sublime-text-tips/sorting-css.gif">
+
+---
+
+#5/6/2016
+
+http://voltagead.com/wp-content/themes/voltage4/img/voltage-sublime.png
+
+Happy Voltage Friday everyone! Today, I would like to talk about a simple setting for turning on the spell checker in SublimeText. Why the spell checker is not enabled by default kinda baffles me. Do they think coders are going to be like "You don't tell me what to do SublimeText!". Before I enabled this on my setup, I would usually Google a word if it looked like the spelling was wrong, but who knows how many I didn't notice.
+
+To enable the spell checker in SublimeText go to "Preferences" -> "Settings" -> "User" and add the following lines:
+
+"spell_check": true,
+"dictionary": "Packages/Language - English/en_US.dic"

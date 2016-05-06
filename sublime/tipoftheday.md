@@ -13,7 +13,7 @@ In SublimeText, you can select CSS properties and then hit ( F5 on Mac ) || ( F9
 
 #5/6/2016
 
-http://voltagead.com/wp-content/themes/voltage4/img/voltage-sublime.png
+<img src="http://voltagead.com/wp-content/themes/voltage4/img/voltage-sublime.png">
 
 Happy Voltage Friday everyone! Today, I would like to talk about a simple setting for turning on the spell checker in SublimeText. Why the spell checker is not enabled by default kinda baffles me. Do they think coders are going to be like "You don't tell me what to do SublimeText!". Before I enabled this on my setup, I would usually Google a word if it looked like the spelling was wrong, but who knows how many I didn't notice.
 

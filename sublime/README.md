@@ -2,4 +2,4 @@
 
 - [Tip of the day](tipoftheday.md)
 - [Useful Settings](settings.md)
-- [Useful Pacakges](packages.md)
+- [Useful Packages](packages.md)

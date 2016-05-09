@@ -21,3 +21,25 @@ To enable the spell checker in SublimeText go to "Preferences" -> "Settings" -> 
 
 "spell_check": true,
 "dictionary": "Packages/Language - English/en_US.dic"
+
+---
+
+#5/9/2016
+
+<img src="http://voltagead.com/wp-content/themes/voltage4/img/voltage-sublime.png">
+
+Hello Voltage Force, I hope you're all having a great Monday! Today I would like to introduce a helper package for SublimeText called Hayaku. This plugin will help you write CSS faster and has many built in and customizable helpers. Because Hayaku has too many features to talk about in this Tip of the Day, I recommend checking out all it has to utilize on their read me section: https://github.com/hayaku/hayaku/#readme
+
+Here are some examples of property/value abbreviations using Hayaku which use the TAB key to execute:
+
+por + tab = position: relative;
+m10 + tab = margin: 10px;
+w10 + tab = width: 10px;
+cF + tab = color: #FFF;
+tdn + tab = text-decoration: none;
+
+Hayaku also lets you increment & decrement values with the keyboard. Put your cursor on the number and use the following shortcuts:
+
+Increment or decrement numeric value by 0.1: ALT-CTRL-↑ or ALT-CTRL-↓
+Increment or decrement numeric value by 1: ALT-↑ or ALT-↓ 
+Increment or decrement numeric values by 10: ALT-SHIFT-↑ or ALT-SHIFT-↓

@@ -2,7 +2,7 @@
 ## With Yoast / SEO friendly
 ### PHP - You will need to modify this code.
 
-`
+```
 <?php
 
 //Set breadcrumbs globally for the hardcoded parts
@@ -45,4 +45,4 @@ $siteUrl = get_home_url();
 			endif; ?>
 		</div>
 	<?php endif; ?>
-`
+````

@@ -43,3 +43,27 @@ Hayaku also lets you increment & decrement values with the keyboard. Put your cu
 Increment or decrement numeric value by 0.1: ALT-CTRL-↑ or ALT-CTRL-↓
 Increment or decrement numeric value by 1: ALT-↑ or ALT-↓ 
 Increment or decrement numeric values by 10: ALT-SHIFT-↑ or ALT-SHIFT-↓
+
+---
+
+#5/11/2016
+
+<img src="http://voltagead.com/wp-content/themes/voltage4/img/voltage-sublime.png">
+
+Good Day Voltage team. Today I wanted to share a super helpful tip from Dave (Thank You!). As you probably know already, SublimeText lets you do file search operations with either (PC: ctrl+shift+f) or (Mac: cmd+shift+f) or through the quick navigate dialog using (PC: ctrl+p) or (Mac: cmd+p). What can be annoying however is when it searches through files related to source control, minified files, node module files, etc. Here is how you can setup folders to ignore from the search operations. I guarantee you will love using the search much more after you exclude un-needed folders.
+
+1. Go to Preferences -> Settings - User
+2. Add this code and customize as needed:
+
+"folder_exclude_patterns":
+	[
+		"node_modules",
+		"plugins/cmb2",
+		"assets/build",
+		"assets/dist",
+		"assets/vendor",
+		"script/vendor",
+		"assets/vender",
+		"gulp/vendor",
+		"*-old"
+	]

@@ -67,3 +67,17 @@ Good Day Voltage team. Today I wanted to share a super helpful tip from Dave (Th
 		"gulp/vendor",
 		"*-old"
 	]
+
+---
+
+#5/12/2016
+
+<img src="http://voltagead.com/wp-content/themes/voltage4/img/voltage-sublime.png">
+
+Hi Everyone! Today I have an awesome little trick to share. So you know how you can't double click on a variable name that contains dash-es in them? Well here is how to remedy that.
+
+In SublimeText go to "Preferences" -> "Settings" -> "User" and add the following line:
+```
+“word_separators”: “./\()"’:,.;<>~!@#$%^&*|+=[]{}`~?”,
+```
+By default it has a - in those separators. By removing the - dash it lets you double click on code to select the whole thing!

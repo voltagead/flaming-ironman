@@ -81,3 +81,20 @@ In SublimeText go to "Preferences" -> "Settings" -> "User" and add the following
 “word_separators”: “./\()"’:,.;<>~!@#$%^&*|+=[]{}`~?”,
 ```
 By default it has a - in those separators. By removing the - dash it lets you double click on code to select the whole thing!
+
+---
+
+#5/16/2016
+
+<img src="http://voltagead.com/wp-content/themes/voltage4/img/voltage-sublime.png">
+
+Good Day Voltage! Today I have a small little moderately unknown 'Paste and Indent' feature in SublimeText. When you paste code it seems like Sublime does it's best to mess up your carefully formatted code, especially if you're embedding it into an existing block of code. Typically if you just run the paste command, the leading whitespace is copied from the clipboard as well. 'Paste and Indent' handles this by correctly calculating the appropriate amount of indentation from the first line of the pasted code.
+
+To perform a 'Paste and Indent' position your cursor at the correct indentation level then press (PC 'Ctrl + Shift + V') or (Mac 'Shift + Command + V').
+
+Alternatively you can remap the default Paste shortcut by going to Preferences -> Key Bindings - User and add this code:
+
+{ "keys": ["super+v"], "command": "paste_and_indent" },
+{ "keys": ["super+shift+v"], "command": "paste" }
+
+That makes the paste and indent the default when just pasting using the normal keyboard shortcuts, but you can still paste normally if needed using the keyboard commands above on (PC 'Ctrl + Shift + V') or (Mac 'Shift + Command + V').

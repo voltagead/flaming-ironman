@@ -100,7 +100,7 @@ Alternatively you can remap the default Paste shortcut by going to Preferences -
 That makes the paste and indent the default when just pasting using the normal keyboard shortcuts, but you can still paste normally if needed using the keyboard commands above on (PC 'Ctrl + Shift + V') or (Mac 'Shift + Command + V').
  ---
  
- #5/17/2016
+#5/17/2016
  
 <img src="http://voltagead.com/wp-content/themes/voltage4/img/voltage-sublime.png">
 

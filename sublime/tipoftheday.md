@@ -106,12 +106,12 @@ That makes the paste and indent the default when just pasting using the normal k
 
 Hello Voltage Pro's. Today I want to talk about Soft Undo / Soft Redo. They work by following all actions including cursor movements, text selections, text editing, etc. They are a rewind and fast forward for your editing session.
 
-### To perform a Soft Undo:
+##### To perform a Soft Undo:
 • Click the undo menu item under Edit | Undo Selection. (The text of the menu item changes
 to indicate what will happen when the action is invoked.) Or press Command+U on Mac OS
 X or Ctrl+U on Windows and Linux.
 
-### :adam: To perform a Soft Redo:
+##### :adam: To perform a Soft Redo:
 • Click the redo menu item under Edit | Undo Selection. (The text of the menu item changes to
 indicate what will happen when the action is invoked.) Or press Shift+Command+U on Mac
 OS X or Ctrl+Shift+U on Windows and Linux.

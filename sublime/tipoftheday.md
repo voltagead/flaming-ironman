@@ -111,7 +111,7 @@ Hello Voltage Pro's. Today I want to talk about Soft Undo / Soft Redo. They work
 to indicate what will happen when the action is invoked.) Or press Command+U on Mac OS
 X or Ctrl+U on Windows and Linux.
 
-##### :adam: To perform a Soft Redo:
+##### To perform a Soft Redo:
 • Click the redo menu item under Edit | Undo Selection. (The text of the menu item changes to
 indicate what will happen when the action is invoked.) Or press Shift+Command+U on Mac
 OS X or Ctrl+Shift+U on Windows and Linux.

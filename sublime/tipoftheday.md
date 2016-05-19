@@ -22,6 +22,8 @@ To enable the spell checker in SublimeText go to "Preferences" -> "Settings" -> 
 "spell_check": true,
 "dictionary": "Packages/Language - English/en_US.dic"
 
+Then you can use F6 to enable/disable as needed.
+
 ---
 
 #5/9/2016

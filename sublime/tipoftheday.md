@@ -100,7 +100,8 @@ Alternatively you can remap the default Paste shortcut by going to Preferences -
 { "keys": ["super+shift+v"], "command": "paste" }
 
 That makes the paste and indent the default when just pasting using the normal keyboard shortcuts, but you can still paste normally if needed using the keyboard commands above on (PC 'Ctrl + Shift + V') or (Mac 'Shift + Command + V').
- ---
+
+---
  
 #5/17/2016
  
@@ -117,3 +118,16 @@ X or Ctrl+U on Windows and Linux.
 • Click the redo menu item under Edit | Undo Selection. (The text of the menu item changes to
 indicate what will happen when the action is invoked.) Or press Shift+Command+U on Mac
 OS X or Ctrl+Shift+U on Windows and Linux.
+
+---
+
+#5/20/2016
+
+<img src="http://voltagead.com/wp-content/themes/voltage4/img/voltage-sublime.png">
+
+Voltage Devs! So you know how in SublimeText when you select a double quote and hit the single quote on the keyboard it just surrounds the double quotes with single quotes to something like '"'... Well that is part of a setting called auto_match_enabled.
+
+In Preferences -> Settings - User add the following to disable auto pairing of quotes, brackets, etc:
+```
+"auto_match_enabled": false
+```

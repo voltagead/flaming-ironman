@@ -131,3 +131,15 @@ In Preferences -> Settings - User add the following to disable auto pairing of q
 ```
 "auto_match_enabled": false
 ```
+
+---
+
+#5/25/2016
+
+<img src="http://voltagead.com/wp-content/themes/voltage4/img/voltage-sublime.png">
+
+Here is a setting that removes whitespace at the end of every line, keeping your code nice and clean. In SublimeText go to "Preferences" -> "Settings" -> "User" and add the following line:
+
+```
+"trim_trailing_white_space_on_save": true
+```

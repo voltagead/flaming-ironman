@@ -39,7 +39,7 @@ $this_is_correct;
 $thisIsIncorrect;
 ```
 
-Always use single quotes for strings unless you have a specific reason to use double quotes 
+Always use single quotes for strings unless you have a specific reason to use double quotes
 
 Concatenate variables and control characters to single quoted strings
 ```php
@@ -68,14 +68,14 @@ if ( function_call( $parameter ) ) {
 
 Logic statements instead templates use colon syntax:
 ```php
-if ( function_call( $parameter ) ):
+if ( function_call( $parameter ) ) :
 	// ...
 endif;
 ```
 
 Note that requiring the use of braces (or colons) just means that *single-statement inline control structures are prohibited*.
 
-Nesting should follow html and php as follows. PHP will open on the same line as the next nested element should. each subsequent "child" should be nested in the same way. Note: Use single PHP blocks as much as possible to descrease some response time.
+Nesting should follow html and php as follows. PHP will open on the same line as the next nested element should. each subsequent "child" should be nested in the same way. Note: Use single PHP blocks as much as possible to decrease some response time.
 ```
 <ul>
 	<?php
@@ -84,7 +84,7 @@ Nesting should follow html and php as follows. PHP will open on the same line as
 	?>
 				<li>Example</li>
 
-				<?php if () :?>
+				<?php if () : ?>
 					<li>Example</li>
 				<?php endif; ?>
 	<?php
@@ -147,7 +147,7 @@ Multi line curly brackets between opening and closing html tags with heavy logic
 
 ```
 <ul>
-	<?php foreach ( $foo as $bar ): ?>
+	<?php foreach ( $foo as $bar ) : ?>
 		<li class="<?php echo $bar; ?>"><?php echo $bar; ?></li>
 	<?php endforeach; ?>
 </ul>

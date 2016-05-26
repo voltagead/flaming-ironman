@@ -178,6 +178,6 @@ Go to "Preferences" -> "Keybindings-User" and add:
 { "keys": ["ctrl+k", "ctrl+t"], "command": "title_case" }
 ```
 
-And now you can convert To Title Case by pressing:
+And now you can convert To Title Case by pressing:br>
 ( Mac ) cmd + kt<br>
 ( PC )  ctrl + kt

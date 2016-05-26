@@ -179,5 +179,5 @@ Go to "Preferences" -> "Keybindings-User" and add:
 ```
 
 And now you can convert To Title Case by pressing:
-( Mac ) cmd + kt
+( Mac ) cmd + kt<br>
 ( PC )  ctrl + kt

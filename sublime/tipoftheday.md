@@ -143,3 +143,41 @@ Here is a setting that removes whitespace at the end of every line, keeping your
 ```
 "trim_trailing_white_space_on_save": true
 ```
+
+---
+
+#5/26/2016
+
+<img src="http://voltagead.com/wp-content/themes/voltage4/img/voltage-sublime.png">
+
+Good day Voltage Force. Today I would like to share a tip on a lesser known keyboard command built in to Sublime for converting text case to UPPER and lowercase and how to extend it even further to convert to Title Case. I find this tip is important to share because when we get content from a client and they include some of their text IN ALL UPPERCASES, we cannot simply copy and paste it in the HTML in all uppercase because it makes screen readers read each letter instead of the actual word and is bad for accessibility.
+
+First, select the text you want to change.
+
+Then to convert TO UPPERCASE press:
+( Mac ) cmd + ku
+( PC )  ctrl + ku
+
+To convert to lower case press:
+( Mac ) cmd + kl
+( PC )  ctrl + kl
+
+_You don't need to press ku or kl at the same time, they are just followed after each other while holding the cmd/ctrl key down the whole time._
+
+As a bonus, here is how to extend the functionality to convert text to Title Case.
+
+Go to "Preferences" -> "Keybindings-User" and add:
+
+( Mac )
+```
+{ "keys": ["super+k", "super+t"], "command": "title_case" }
+```
+
+( PC )
+```
+{ "keys": ["ctrl+k", "ctrl+t"], "command": "title_case" }
+```
+
+And now you can convert To Title Case by pressing:
+( Mac ) cmd + kt
+( PC )  ctrl + kt

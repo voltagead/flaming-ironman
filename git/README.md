@@ -10,4 +10,3 @@ Standards, suggestions and best practices for working with git.
 ## Useful commands
 
 - `git config core.ignorecase false` - When renaming files in git to a different "case", by default git will not track the changes. This will force git to track those changes.
-

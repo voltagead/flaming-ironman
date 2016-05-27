@@ -181,3 +181,21 @@ Go to "Preferences" -> "Keybindings-User" and add:
 And now you can convert To Title Case by pressing:<br>
 ( Mac ) cmd + kt<br>
 ( PC )  ctrl + kt
+
+---
+
+#5/27/2016
+
+<img src="http://voltagead.com/wp-content/themes/voltage4/img/voltage-sublime.png">
+
+Howdy Voltage Pros! Many of you already know this one, but if not here is a simple tip on how to move your lines of code up and down without cutting and pasting.
+
+To move a line up :
+( Mac ) ctrl+cmd+UP
+( PC )  ctrl+shift+UP
+
+To move a line down ( yep you guessed it ) :
+( Mac ) ctrl+cmd+DOWN
+( PC )  ctrl+shift+DOWN
+
+https://i2.wp.com/blog-proxy.generalassemb.ly/blog/wp-content/uploads/2013/11/movelines.gif

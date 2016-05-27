@@ -198,4 +198,4 @@ To move a line down ( yep you guessed it ) :
 ( Mac ) ctrl+cmd+DOWN
 ( PC )  ctrl+shift+DOWN
 
-https://i2.wp.com/blog-proxy.generalassemb.ly/blog/wp-content/uploads/2013/11/movelines.gif
+<img src="https://i2.wp.com/blog-proxy.generalassemb.ly/blog/wp-content/uploads/2013/11/movelines.gif">

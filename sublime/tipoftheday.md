@@ -199,3 +199,33 @@ To move a line down ( yep you guessed it ) :
 ( PC )  ctrl+shift+DOWN
 
 <img src="https://i2.wp.com/blog-proxy.generalassemb.ly/blog/wp-content/uploads/2013/11/movelines.gif">
+
+---
+
+<img src="http://voltagead.com/wp-content/themes/voltage4/img/voltage-sublime.png">
+
+Happy Tuesday everyone! Today I want to talk about a Sublime plugin that makes coding HTML much easier by using shortcuts based on CSS Selectors. For example you can type in:
+```
+div#container>ul>li.my-item-class*3
+```
+Then hit the tab key to have it produce:
+```
+<div id="container">
+	<ul>
+		<li class="my-item-class"></li>
+		<li class="my-item-class"></li>
+		<li class="my-item-class"></li>
+	</ul>
+</div>
+```
+<img src="https://i0.wp.com/blog-proxy.generalassemb.ly/blog/wp-content/uploads/2013/11/sublime-text-3-emmet.gif">
+
+To install Emmet:
+1. Install package control if you don't already have it (https://packagecontrol.io/installation)
+2. Open up your command palette: ( PC - ctrl+shift+p ) or ( Mac - command+shift+p )
+3. Type 'install' then choose 'Package Control: Install Package'
+4. Search for 'emmet' and choose 'Emmet - Emmet for Sublime Text'
+
+Then once Emmet package is installed, close Sublime and reopen it. Now you can try the example above and see the benefits of quickly producing HTML.
+
+Here is a link with more example on how to use Emmet: http://www.hongkiat.com/blog/html-css-faster-emmet/

@@ -35,4 +35,5 @@ Our standards are well-enough established that the only changes necessary will b
 - [Chrome Plugins](chrome/)
 - [Sublime](sublime/)
 - [Useful Dev Links](useful-links.md)
+- [jQuery Plugins](jquery-plugins.md)
 - [Wiki Template](wiki-template.md)

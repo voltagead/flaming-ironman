@@ -202,6 +202,8 @@ To move a line down ( yep you guessed it ) :
 
 ---
 
+#5/31/2016
+
 <img src="http://voltagead.com/wp-content/themes/voltage4/img/voltage-sublime.png">
 
 Happy Tuesday everyone! Today I want to talk about a Sublime plugin that makes coding HTML much easier by using shortcuts based on CSS Selectors. For example you can type in:
@@ -229,3 +231,16 @@ To install Emmet:
 Then once Emmet package is installed, close Sublime and reopen it. Now you can try the example above and see the benefits of quickly producing HTML.
 
 Here is a link with more example on how to use Emmet: http://www.hongkiat.com/blog/html-css-faster-emmet/
+
+---
+
+#6/1/2016
+
+<img src="http://voltagead.com/wp-content/themes/voltage4/img/voltage-sublime.png">
+
+Good Morning Voltage Developers. Today I have a quick tip on how to quickly open multiple columns in Sublime so you code different files side by side.
+
+( PC ) - alt + shift + 1 to 4
+( Mac ) - alt + command + 1 to 4
+
+As a bonus, if you use 5 it creates four panes 2 x 2.

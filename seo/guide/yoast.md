@@ -8,7 +8,7 @@
 
 If a wordpress site has caching enabled (either through wp-engine.com or a plugin) it will cache the sitemap. This will conflict with sitemaps that are dynamically changed as pages/posts/etc are added and plugins like Yoast SEO will generate a new sitemap.xml accordingly. [Sitemap Not Updating](http://kb.yoast.com/article/252-sitemap-does-not-update)
 
-	add_filter('wpseo_enable_xml_sitemap_transient_caching', '__return_false');
+	add_filter( 'wpseo_enable_xml_sitemap_transient_caching', '__return_false' );
 
 *TODO: Make Look Nice*
 
@@ -41,7 +41,7 @@ When calculating an SEO score, Yoast only considers the default content of the p
 		YoastACF.registerYoast = function() {
 			YoastSEO.app.registerPlugin( 'yoast-acf', { status: 'ready' } );
 			YoastSEO.app.registerModification( 'content', YoastACF.contentModification, 'yoast-acf', 5 );
-			acf.add_action('change', YoastACF.reload );
+			acf.add_action( 'change', YoastACF.reload );
 		};
 
 		YoastACF.reload = function() {

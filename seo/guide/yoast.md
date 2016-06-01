@@ -30,7 +30,7 @@ Canonical links allow multiple, similar URLs to point search engines to a single
 
 	<link rel="canonical" href="http://example.com/wordpress/seo-plugin/">
 
-## Advanced Custom Fields
+## SEO Scores and Meta Data
 
 When calculating an SEO score, Yoast only considers the default content of the post. Meta data is not included, so custom fields that are added by plugins such as ACF or CMB2 will not have their contents included in the SEO score by default. There are plugins to enable these extra fields, but for simpler projects, custom javascript can be included in the admin in order to include these extra fields. The snippet below shows how to add an image field and wysiwyg from ACF into the SEO score.
 

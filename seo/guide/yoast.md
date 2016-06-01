@@ -20,7 +20,7 @@ Sitemaps should also be included in robots.txt for other search engines that you
 
 ## Focus Keywords
 
-Despite what intuition may dictate, the focus keyword field does not directly affect SEO performance. According to the [Yoast SEO blog](https://yoast.com/focus-keyword/), "the focus keyword is the keyword that you want your page to show up in search results for. Once you've set it in the Yoast SEO focus keyword input field, the plugin evaluates the content of the page and provides feedback on how to better optimize the page." 
+Despite what intuition may dictate, the focus keyword field does not directly affect SEO performance. According to the [Yoast SEO blog](https://yoast.com/focus-keyword/), "the focus keyword is the keyword that you want your page to show up in search results for. Once you've set it in the Yoast SEO focus keyword input field, the plugin evaluates the content of the page and provides feedback on how to better optimize the page."
 
 In general it's best to use multi word keyphrase such as `focus keyword`, `market strategy` or `flaming ironman`. However, the focus keyword field only accepts ONE keyword or phrase. The entire contents of the field is used as the focus keyword, and the score will become less viable when there are too many words.
 
@@ -32,3 +32,38 @@ Canonical links allow multiple, similar URLs to point search engines to a single
 
 ## Advanced Custom Fields
 
+When calculating an SEO score, Yoast only considers the default content of the post. Meta data is not included, so custom fields that are added by plugins such as ACF or CMB2 will not have their contents included in the SEO score by default. There are plugins to enable these extra fields, but for simpler projects, custom javascript can be included in the admin in order to include these extra fields. The snippet below shows how to add an image field and wysiwyg from ACF into the SEO score.
+
+	(function ($) {
+
+		var YoastACF = {};
+
+		YoastACF.registerYoast = function() {
+			YoastSEO.app.registerPlugin( 'yoast-acf', { status: 'ready' } );
+			YoastSEO.app.registerModification( 'content', YoastACF.contentModification, 'yoast-acf', 5 );
+			acf.add_action('change', YoastACF.reload );
+		};
+
+		YoastACF.reload = function() {
+			YoastSEO.app.pluginReloaded( 'yoast-acf' );
+		};
+
+		YoastACF.contentModification = function( content ) {
+			var img1 = $( '.acf-field-5434749c153ba img[src!=""]' );
+			var bottom = $( 'textarea[name="acf[field_5475e2adc47fb]"' );
+			if ( img1.length > 0 ) {
+				content = img1.outerHTML() + '\n' + content;
+			}
+			if ( bottom.length > 0 ) {
+				content = content + '\n' + bottom.val();
+			}
+			return content;
+		};
+
+		$( window ).on( 'YoastSEO:ready', function () {
+			YoastACF.registerYoast();
+		});
+
+	} ( window.jQuery || window.$ ));
+
+> **Note:** Yoast SEO uses a different method to retrieve the content when recalculating all the scores at once from the backend. Yoast has provided the `wpseo_post_content_for_recalculation` and `wpseo_term_description_for_recalculation` filters for this purpose.

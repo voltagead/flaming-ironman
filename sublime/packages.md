@@ -1,4 +1,4 @@
-#<center>Useful Packages for Sublime</center>
+#<div style="textalign:center">Useful Packages for Sublime</div>
 
 ##SidebarEnhancements
 SidebarEnhancements has a few new things in the Sidebar menu including New File Creation in the current project folder, Moving File and Folder, Duplicating File and Folder, Open in Finder and Browser, Refresh, and a bunch more.

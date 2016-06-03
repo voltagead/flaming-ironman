@@ -276,7 +276,7 @@ https://github.com/titoBouzout/SideBarEnhancements
 
 <img src="http://voltagead.com/wp-content/themes/voltage4/img/voltage-sublime.png">
 
-Happy Friday everyone! Today I have a tip that is surely to you help save time and become a master at moving around in the code. An essential part of coding is going back and forth between particular parts of your code. But remembering all the line numbers by hard is a big pain. Luckily, you don’t have to with the help of bookmarks.
+Happy Friday everyone! Today I have a tip that is surely to you help save time and become a master at moving around in the code. An essential part of coding is going back and forth between particular parts of your code. But remembering all the line numbers by hand is a big pain. Luckily, you don’t have to with the help of bookmarks.
 
 To set bookmarks ( as many as you want ):
 ( PC -> ctrl+F2 )

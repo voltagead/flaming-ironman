@@ -244,3 +244,42 @@ Good Morning Voltage Developers. Today I have a quick tip on how to quickly open
 ( Mac ) - alt + command + 1 to 4
 
 As a bonus, if you use 5 it creates four panes 2 x 2.
+
+---
+
+#6/2/2016
+
+<img src="http://voltagead.com/wp-content/themes/voltage4/img/voltage-sublime.png">
+
+Hello Voltage Team! Today I want to share a plug-in that is for SublimeText 3. If you are on version 2, you can upgrade to version 3 using the same serial key. Ok, on to the plug-in! The plugin is called Sidebar Enhancements and it provides many new operations to the sidebar of files and folders.
+
+Notably provides delete as "move to trash", open with.. and a clipboard. Close, move, open and restore buffers affected by a rename/move command. (even on folders) and provides the basics: new file/folder, edit, open/run, reveal, find in selected/parent/project, cut, copy, paste, paste in parent, rename, move, delete, refresh....
+
+The not so basic: copy paths as URIs, URLs, content as UTF8, content as data:uri base64 ( nice for embedding into CSS! ), copy as tags img/a/script/style, duplicate
+
+<img src="https://camo.githubusercontent.com/9c427039fb2e97570edf760c4abeaf43d208f702/687474703a2f2f646c2e64726f70626f782e636f6d2f752f34333539363434392f7469746f2f7375626c696d652f536964654261722f73637265656e73686f742e706e67">
+
+To install SideBar Enhancements:
+
+1. Open up your command palette: ( PC - ctrl+shift+p ) or ( Mac - command+shift+p )
+2. Type 'install' then choose 'Package Control: Install Package'
+3. Search for 'SideBarEnhancements' and hit enter once you have it chosen.
+
+Then once SideBarEnhancements package is installed, close Sublime and reopen it.
+
+Here is a link to the official plugin page:
+https://github.com/titoBouzout/SideBarEnhancements
+
+---
+
+#6/3/2016
+
+<img src="http://voltagead.com/wp-content/themes/voltage4/img/voltage-sublime.png">
+
+Happy Friday everyone! Today I have a tip that is surely to you help save time and become a master at moving around in the code. An essential part of coding is going back and forth between particular parts of your code. But remembering all the line numbers by hard is a big pain. Luckily, you don’t have to with the help of bookmarks.
+
+To set bookmarks ( as many as you want ):
+( PC -> ctrl+F2 )
+( Mac -> cmd+F2 )
+
+Then you can navigate through the bookmarks by using F2 or shift+F2 to jump back and forth.

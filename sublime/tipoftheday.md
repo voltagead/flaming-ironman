@@ -279,7 +279,27 @@ https://github.com/titoBouzout/SideBarEnhancements
 Happy Friday everyone! Today I have a tip that is surely to you help save time and become a master at moving around in the code. An essential part of coding is going back and forth between particular parts of your code. But remembering all the line numbers by hand is a big pain. Luckily, you don’t have to with the help of bookmarks.
 
 To set bookmarks ( as many as you want ):
-( PC -> ctrl+F2 )
+( PC -> ctrl+F2 )<br>
 ( Mac -> cmd+F2 )
 
 Then you can navigate through the bookmarks by using F2 or shift+F2 to jump back and forth.
+
+---
+
+#6/6/2016
+
+<img src="http://voltagead.com/wp-content/themes/voltage4/img/voltage-sublime.png">
+
+Happy Monday Voltage Teams! Did you know Sublime Text has an advanced clipboard built in that has the ability to have multiple items in your clipboard history and you can get access to all of them with your keyboard? Well if you didn't today is your lucky day!
+
+To access the clipboard history you simply press the following keyboard shortcut before you initiate a regular paste shortcut:
+
+( PC -> ctrl+k )<br>
+( Mac -> command+k )
+
+The full sequence is:
+
+( PC -> ctrl+k then ctrl+v )<br>
+( Mac -> command+k then command+v )
+
+After you do the full sequence you will see a pop up window that you can choose an item from your copied code history.

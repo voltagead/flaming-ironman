@@ -303,3 +303,16 @@ The full sequence is:
 ( Mac -> command+k then command+v )
 
 After you do the full sequence you will see a pop up window that you can choose an item from your copied code history.
+
+---
+
+#6/7/2016
+
+<img src="http://voltagead.com/wp-content/themes/voltage4/img/voltage-sublime.png">
+
+Good day Voltage! Today I'm going to share a quick tip on how to select all instances of selected code with one keyboard shortcut. In no time we will all be like Chuck Norris writing code that optimizes itself.
+
+To highlight all instances of what ever code you have selected:
+
+( PC -> alt+F3 )<br>
+( Mac -> cmd+ctrl+g )

@@ -316,3 +316,19 @@ To highlight all instances of what ever code you have selected:
 
 ( PC -> alt+F3 )<br>
 ( Mac -> cmd+ctrl+g )
+
+---
+
+#6/10/2016
+
+<img src="http://voltagead.com/wp-content/themes/voltage4/img/voltage-sublime.png">
+
+Happy Voltage Friday everyone! Today's tip will help everyone who writes code with the Emmet packaged installed - wrapping content in a tag. It's great to use Emmet to write the tag and then type your content inside - but what if you already have the content and need to wrap it with tags?
+
+Highlight the content you wish to wrap, then open your command pallet and search for "wrap with abbreviation" then look for the keyboard shortcut; which on my PC is ctrl+shift+g, or just select the wrap command from the list.
+
+This will open an input box at the bottom of Sublime where you can either type a simple emmet tag name, or a more complex Emmet abbreviation.
+
+Here's a link to additional information on wrapping with Emmet: http://docs.emmet.io/actions/wrap-with-abbreviation/
+
+And I have to share this because it shows some common uses for Emmet: https://designshack.net/articles/css/7-awesome-emmet-html-time-saving-tips/

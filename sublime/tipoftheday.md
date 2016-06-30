@@ -332,3 +332,22 @@ This will open an input box at the bottom of Sublime where you can either type a
 Here's a link to additional information on wrapping with Emmet: http://docs.emmet.io/actions/wrap-with-abbreviation/
 
 And I have to share this because it shows some common uses for Emmet: https://designshack.net/articles/css/7-awesome-emmet-html-time-saving-tips/
+
+---
+
+#6/30/2016
+
+<img src="http://voltagead.com/wp-content/themes/voltage4/img/voltage-sublime.png">
+
+Awesome Voltage Developers, I know it's been a while but I have a new tip I have to share with you all.
+
+One of the many great features about Sublime; by default, is that it has the indentation dotted lines running down the left. To increase visibility, we can differentiate between the active, parent and child indentations!!!
+
+To turn this on, simply put this in your Preferences -> Settings - User file:
+```
+"indent_guide_options":
+    [
+        "draw_normal",
+        "draw_active"
+    ],
+```

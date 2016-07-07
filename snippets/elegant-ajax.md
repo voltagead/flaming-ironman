@@ -1,6 +1,7 @@
 ###Here's an easy, elegant way to retry a jQuery AJAX call that returns an error:
 
 ####Limit by retry count
+When the user clicks a button and they are expecting a reaction immediately, the ajax call tries itself three times right after each other if needed without waiting.
 ```
 $.ajax( {
     url : 'someurl',
@@ -31,6 +32,7 @@ $.ajax( {
 ```
 
 ####Alternatively retry after a timeout:
+In some situations, it would be good to put a small delay between retries if the response doesn't need to be immediate.
 ```
 $.ajaxSetup( {
     timeout: 3000, 

@@ -351,3 +351,25 @@ To turn this on, simply put this in your Preferences -> Settings - User file:
         "draw_active"
     ],
 ```
+
+---
+
+#7/7/2016
+
+<img src="http://voltagead.com/wp-content/themes/voltage4/img/voltage-sublime.png">
+
+Good day Voltage Internet Engineers! Are you getting bored of the same default Sublime UI day after day? Well today for a low, low special of only $99 we can make the Sublime interface slice, dice and make you look twice.
+
+So there are two types of themes for Sublime. Color Scheme themes and UI themes. Color scheme package files end with a .tmTheme and UI themes end with a .sublime-theme. Today I tried this UI theme called Piatto because it makes the sidebar gray and has custom file type icons.
+
+https://github.com/samuelrafo/piatto
+
+To install the UI part of the theme, I opened Package Control: Install Package then searched for "Theme - Piatto". Once the theme was installed, I opened Preferences -> Settings - User and added this line below which just sets the UI theme from Piatto, but not the color scheme:
+```
+"theme": "Piatto Light.sublime-theme"
+```
+
+If you find your code color scheme on accident, you can always manually set that too in the Settings - User like so:
+```
+"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
+```

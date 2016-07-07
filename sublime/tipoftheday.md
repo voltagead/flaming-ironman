@@ -369,7 +369,7 @@ To install the UI part of the theme, I opened Package Control: Install Package t
 "theme": "Piatto Light.sublime-theme"
 ```
 
-If you find your code color scheme on accident, you can always manually set that too in the Settings - User like so:
+If you find your code color scheme changes on accident, you can always manually set that too in the Settings - User like so:
 ```
 "color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
 ```

@@ -59,3 +59,9 @@ https://www.smashingmagazine.com/2016/05/fluid-typography/
 https://www.smashingmagazine.com/2016/06/shortcuts-and-tips-for-improving-your-productivity-with-sublime-text/
 
 ---
+
+#### Build web apps and automate tasks
+##### with Google Apps Script
+https://www.google.com/script/start/
+
+---

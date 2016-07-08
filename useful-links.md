@@ -65,3 +65,9 @@ https://www.smashingmagazine.com/2016/06/shortcuts-and-tips-for-improving-your-p
 https://www.google.com/script/start/
 
 ---
+
+#### 7 Awesome Emmet HTML
+##### Time-Saving Tips
+https://designshack.net/articles/css/7-awesome-emmet-html-time-saving-tips/
+
+---

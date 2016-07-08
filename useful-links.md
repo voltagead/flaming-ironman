@@ -53,3 +53,9 @@ http://apps.eky.hk/css-triangle-generator/
 https://www.smashingmagazine.com/2016/05/fluid-typography/
 
 ---
+
+#### Shortcuts And Tips For Improving
+##### Your Productivity With Sublime Text
+https://www.smashingmagazine.com/2016/06/shortcuts-and-tips-for-improving-your-productivity-with-sublime-text/
+
+---

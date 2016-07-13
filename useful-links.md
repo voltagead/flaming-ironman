@@ -71,3 +71,8 @@ https://www.google.com/script/start/
 https://designshack.net/articles/css/7-awesome-emmet-html-time-saving-tips/
 
 ---
+
+#### How To Make WordPress
+##### Easy To Maintain For Your Clients
+https://designshack.net/articles/css/7-awesome-emmet-html-time-saving-tips/https://www.smashingmagazine.com/2016/07/how-to-make-wordpress-easy-to-maintain-for-your-clients/
+---

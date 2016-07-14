@@ -373,3 +373,25 @@ If you find your code color scheme changes on accident, you can always manually 
 ```
 "color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
 ```
+
+---
+
+#7/14/2016
+
+<img src="http://voltagead.com/wp-content/themes/voltage4/img/voltage-sublime.png">
+
+Yo Pro's. Today I want to share a Sublime plugin called Git Gutter that I have found very helpful. Git Gutter shows different colored icons depending on whether a line has been inserted, modified, or deleted on your git branch.
+
+<img src="https://camo.githubusercontent.com/272854f332fd374f50a58060615af911b9798fbc/68747470733a2f2f7261772e6769746875622e636f6d2f6a69736161636b732f4769744775747465722f6d61737465722f73637265656e73686f742e706e67.">
+
+To install the package, open package control -> Install Package -> Git Gutter
+
+Then it should start working automatically! If you want to jump through the changes you can use these keyboard shortcuts:
+
+Previous changes:
+(Mac) Command+Shift+Option+k
+(PC)  Ctrl+Shift+Alt+k
+
+Next Changes:
+(Mac) Command+Shift+Option+j
+(PC)  Ctrl+Shift+Alt+j

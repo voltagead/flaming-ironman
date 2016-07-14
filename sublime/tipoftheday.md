@@ -382,7 +382,7 @@ If you find your code color scheme changes on accident, you can always manually 
 
 Yo Pro's. Today I want to share a Sublime plugin called Git Gutter that I have found very helpful. Git Gutter shows different colored icons depending on whether a line has been inserted, modified, or deleted on your git branch.
 
-<img src="https://camo.githubusercontent.com/272854f332fd374f50a58060615af911b9798fbc/68747470733a2f2f7261772e6769746875622e636f6d2f6a69736161636b732f4769744775747465722f6d61737465722f73637265656e73686f742e706e67.">
+<img src="https://camo.githubusercontent.com/272854f332fd374f50a58060615af911b9798fbc/68747470733a2f2f7261772e6769746875622e636f6d2f6a69736161636b732f4769744775747465722f6d61737465722f73637265656e73686f742e706e67">
 
 To install the package, open package control -> Install Package -> Git Gutter
 

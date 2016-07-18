@@ -75,9 +75,11 @@ https://designshack.net/articles/css/7-awesome-emmet-html-time-saving-tips/
 #### How To Make WordPress
 ##### Easy To Maintain For Your Clients
 https://designshack.net/articles/css/7-awesome-emmet-html-time-saving-tips/https://www.smashingmagazine.com/2016/07/how-to-make-wordpress-easy-to-maintain-for-your-clients/
+
 ---
 
 #### Uncommon jQuery Selectors
 ##### Since common jQuery selectors are based on existing CSS selectors, you might be well versed in them. However, there are also a few selectors that are not used as much.
 http://code.tutsplus.com/tutorials/uncommon-jquery-selectors--cms-25812
+
 ---

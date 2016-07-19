@@ -395,3 +395,13 @@ Previous changes:
 Next Changes:
 (Mac) Command+Shift+Option+j
 (PC)  Ctrl+Shift+Alt+j
+
+---
+
+#7/19/2016
+
+<img src="http://voltagead.com/wp-content/themes/voltage4/img/voltage-sublime.png">
+
+Good Day Voltage! I wanted to share a package I started using today called Sublime Gulp that lets you run gulp commands from the Sublime command pallet. It's already been a time saver for me, plus this package lets you setup Gulp snippets, gulp command key bindings, run last gulp command, etc. If you are interested, here is a link to the Sublime Gulp package that has install instructions and usage documentation. Enjoy.
+
+<a href="https://github.com/NicoSantangelo/sublime-gulp">https://github.com/NicoSantangelo/sublime-gulp</a>

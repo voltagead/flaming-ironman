@@ -9,4 +9,5 @@ SidebarEnhancements has a few new things in the Sidebar menu including New File 
 
 ## Clickable URLs
 Underlines URLs in Sublime Text, and lets you open them with a keystroke.
+<img src="https://packagecontrol.io/readmes/img/bc3001628d15df261e106b065070e9fc6b946e38.png"><br>
 <a href="https://packagecontrol.io/packages/Clickable%20URLs">https://packagecontrol.io/packages/Clickable%20URLs</a>

@@ -11,3 +11,9 @@ SidebarEnhancements has a few new things in the Sidebar menu including New File 
 Underlines URLs in Sublime Text, and lets you open them with a keystroke.
 <img src="https://packagecontrol.io/readmes/img/bc3001628d15df261e106b065070e9fc6b946e38.png"><br>
 <a href="https://packagecontrol.io/packages/Clickable%20URLs">https://packagecontrol.io/packages/Clickable%20URLs</a>
+
+---
+
+## Sublime Gulp
+A plugin to run your Gulp tasks from within Sublime plus some handy snippets too.
+<a href="https://github.com/NicoSantangelo/sublime-gulp">https://github.com/NicoSantangelo/sublime-gulp</a>

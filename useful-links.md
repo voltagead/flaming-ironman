@@ -36,9 +36,9 @@ https://developer.microsoft.com/en-us/microsoft-edge/tools/screenshots/
 
 ---
 
-#### &what;
-##### The best html entity finder out there.
-http://www.amp-what.com/
+#### Graphemica
+##### The best unicode and html entity finder out there.
+http://graphemica.com/
 
 ---
 

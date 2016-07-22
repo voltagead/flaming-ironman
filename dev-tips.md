@@ -11,3 +11,18 @@ To turn on this setting:
 4. Close the Preferences options.
 
 Of course you can always use a Chrome extension to clear your cache with a single click as well like you can find here: https://goo.gl/CTxUxP
+
+---
+
+# 7/22/2016
+
+<img src="http://voltagead.com/wp-content/themes/voltage4/img/voltage-dev-tips.png">
+
+Happy Voltage Friday everyone! To compliment the last tip on clearing your cache when Chrome DevTools is open, I wanted to highlight this Clear Cache plugin. It's the easiest clear cache and refresh button around for when DevTools is closed.
+
+Download the pluggin here:
+https://chrome.google.com/webstore/detail/clear-cache/cppjkneekbjaeellbfkmgnhonkkjfpdn?hl=en
+
+After you install the plugin, checkout the options by right clicking on the icon. Make sure that "Automatically reload active tab after clearing data" is checked and the Time Period is set to "Everything".
+
+Last, set a keyboard shortcut for fast access! Shortcuts can be configured at the >bottom< of the Chrome Extensions page by selecting Keyboard shortcuts here chrome://extensions/.

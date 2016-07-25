@@ -26,3 +26,13 @@ https://chrome.google.com/webstore/detail/clear-cache/cppjkneekbjaeellbfkmgnhonk
 After you install the plugin, checkout the options by right clicking on the icon. Make sure that "Automatically reload active tab after clearing data" is checked and the Time Period is set to "Everything".
 
 Last, set a keyboard shortcut for fast access! Shortcuts can be configured at the >bottom< of the Chrome Extensions page by selecting Keyboard shortcuts here chrome://extensions/.
+
+---
+
+# 7/25/2016
+
+<img src="http://voltagead.com/wp-content/themes/voltage4/img/voltage-dev-tips.png">
+
+Welcome back to a great new week Voltage! So have you ever been trying to debug some Javascript that shows up just before the page is unloaded? Well, just hit the refresh key a bunch and try to read the text flash from the console error. Just kidding! There is actually a much simpler way. Chrome DevTools has a setting in plain view called "Preserve Log" which will make the console log persist instead of clearing on every page load.
+
+http://cdn.tutorialzine.com/wp-content/uploads/2015/03/6.PreserveLog.gif

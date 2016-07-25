@@ -35,4 +35,4 @@ Last, set a keyboard shortcut for fast access! Shortcuts can be configured at th
 
 Welcome back to a great new week Voltage! So have you ever been trying to debug some Javascript that shows up just before the page is unloaded? Well, just hit the refresh key a bunch and try to read the text flash from the console error. Just kidding! There is actually a much simpler way. Chrome DevTools has a setting in plain view called "Preserve Log" which will make the console log persist instead of clearing on every page load.
 
-http://cdn.tutorialzine.com/wp-content/uploads/2015/03/6.PreserveLog.gif
+<img src="http://cdn.tutorialzine.com/wp-content/uploads/2015/03/6.PreserveLog.gif">

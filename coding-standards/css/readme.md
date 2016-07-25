@@ -20,7 +20,7 @@ Split discrete chunks of code into their own files, which are concatenated durin
 
 Use hyphen case, not camel or underscore (snake)
 
-For string use double quotes in css/scss. Don't use single quotes or NO quotes.
+For string use double quotes in CSS/SCSS. Don't use single quotes or NO quotes.
 
 Correct:
 `font-family: "DINWebPro-CondMedium", Arial, Helvetica, sans-serif;`
@@ -101,15 +101,15 @@ For media queries, use `min-width`s when possible (mobile first):
 	/* Default mobile style */
 	display: none;
 
-	@include breakpoint(min-width 480px) {
+	@include breakpoint( min-width 480px ) {
 		display: inline;
 	}
 
-	@include breakpoint(min-width 720px) {
+	@include breakpoint( min-width 720px ) {
 		display: inline-block;
 	}
 
-	@include breakpoint(min-width 990px) {
+	@include breakpoint( min-width 990px ) {
 		display: block;
 	}
 
@@ -285,7 +285,7 @@ Preferred ordering of properties inside selectors:
 
 ```scss
 .class-name {
-	@include border-radius(5px);
+	@include border-radius( 5px );
 	@extend .clearfix;
 	margin: 0;
 }

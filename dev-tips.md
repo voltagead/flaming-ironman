@@ -36,3 +36,13 @@ Last, set a keyboard shortcut for fast access! Shortcuts can be configured at th
 Welcome back to a great new week Voltage! So have you ever been trying to debug some Javascript that shows up just before the page is unloaded? Well, just hit the refresh key a bunch and try to read the text flash from the console error. Just kidding! There is actually a much simpler way. Chrome DevTools has a setting in plain view called "Preserve Log" which will make the console log persist instead of clearing on every page load.
 
 <img src="http://cdn.tutorialzine.com/wp-content/uploads/2015/03/6.PreserveLog.gif">
+
+---
+
+# 7/27/2016
+
+<img src="http://voltagead.com/wp-content/themes/voltage4/img/voltage-dev-tips.png">
+
+Hola Voltaje Desarrolladores! You know that old saying "a screenshot speaks a thousand lines of code" or something like that? Well luckily Chrome has a really useful plugin to screen capture all or part of any web page. The plugin is called "Awesome Screenshot" and can be installed from here: https://goo.gl/9EdO5h
+
+There are a couple of great features this plugin offers beyond just capturing a page. It also lets you add annotations, comments, *blur sensitive info*, and share with one-click uploads!

@@ -46,3 +46,27 @@ Welcome back to a great new week Voltage! So have you ever been trying to debug 
 Hola Voltaje Desarrolladores! You know that old saying "a screenshot speaks a thousand lines of code" or something like that? Well luckily Chrome has a really useful plugin to screen capture all or part of any web page. The plugin is called "Awesome Screenshot" and can be installed from here: https://goo.gl/9EdO5h
 
 There are a couple of great features this plugin offers beyond just capturing a page. It also lets you add annotations, comments, *blur sensitive info*, and share with one-click uploads!
+
+---
+
+# 7/28/2016
+
+<img src="http://voltagead.com/wp-content/themes/voltage4/img/voltage-dev-tips.png">
+
+Good day Voltage! Today I want to share a nifty tip on Chrome DevTools console commands. We all know about console.log, but did you know there is a console.table function that can output a tabular layout for arrays or objects? Let's imagine we have a list of programming languages and their file extensions:
+
+```
+var languages = [
+	{ name: 'SASS', fileExtension: '.scss' },
+	{ name: 'Javascript', fileExtension: '.js' },
+	{ name: 'Hypertext Preprocessor', fileExtension: '.php' }
+];
+```
+
+The console.log() function will return the following representation of the data:
+<img src="http://preview.voltagead.com/voltage/adam/tip-images/console.log.output.png">
+
+The tree view is helpful, but having to open or collapse every object manually is cumbersome. Now lets see that output using console.table.
+<img src="http://preview.voltagead.com/voltage/adam/tip-images/console.table.output.png">
+
+Pretty awesome! And on top of that, the columns are sortable!

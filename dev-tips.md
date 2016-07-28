@@ -63,8 +63,8 @@ var languages = [
 ];
 ```
 
-The console.log() function will return the following representation of the data:
-<img src="http://preview.voltagead.com/voltage/adam/tip-images/console.log.output.png">
+The console.log() function will return the following representation of the data:<br>
+<img src="http://preview.voltagead.com/voltage/adam/tip-images/console.log.output.png"><br>
 
 The tree view is helpful, but having to open or collapse every object manually is cumbersome. Now lets see that output using console.table.
 <img src="http://preview.voltagead.com/voltage/adam/tip-images/console.table.output.png">

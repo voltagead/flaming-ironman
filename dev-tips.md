@@ -70,3 +70,13 @@ The tree view is helpful, but having to open or collapse every object manually i
 <img src="http://preview.voltagead.com/voltage/adam/tip-images/console.table.output.png">
 
 Pretty awesome! And on top of that, the columns are sortable!
+
+---
+
+# 7/29/2016
+
+<img src="http://voltagead.com/wp-content/themes/voltage4/img/voltage-dev-tips.png">
+
+Happy Voltage Friday everyone. So today, I want to present this awesome Chrome Plugin I just found that makes it super easy to bring up saved sessions of Chrome tabs. Say for instance, when you come in the morning and open Harvest, Forecast, Trello, Basecamp, Gmail, Google Calendars, etc you can save a session of those tabs to bring them all up with one click. Or maybe you are working on Mark N' Gear and need to bring up a tab of the home page, cart page, pdp page, Basecamp, Bitbucket. Well you can do all of that with this Chrome Plugin called Session Manager.
+
+You can install Session Manager for Chrome by going here: https://goo.gl/f6tt86

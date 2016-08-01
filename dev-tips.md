@@ -80,3 +80,15 @@ Pretty awesome! And on top of that, the columns are sortable!
 Happy Voltage Friday everyone. So today, I want to present this awesome Chrome Plugin I just found that makes it super easy to bring up saved sessions of Chrome tabs. Say for instance, when you come in the morning and open Harvest, Forecast, Trello, Basecamp, Gmail, Google Calendars, etc you can save a session of those tabs to bring them all up with one click. Or maybe you are working on Mark N' Gear and need to bring up a tab of the home page, cart page, pdp page, Basecamp, Bitbucket. Well you can do all of that with this Chrome Plugin called Session Manager.
 
 You can install Session Manager for Chrome by going here: https://goo.gl/f6tt86
+
+---
+
+# 8/1/2016
+
+<img src="http://voltagead.com/wp-content/themes/voltage4/img/voltage-dev-tips.png">
+
+Welcome back to the start of a great week! Today I want to share a tip on a less used, but super simple part of Chrome DevTools called "Audits". We all know a fast site is part of a successful site. Our jobs as developers is not done until we have optimized both the real and perceived performance of a web page. Web speed is so important, Google has an entire effort devoted to making the web faster called PageSpeed and some claim it's so important it effects search engine rankings. Luckily Chrome DevTools provides an excellent tool which inspects the web page and offers recommendations to optimize network utilization and web page performance. The Audits panel is located in the main tools button panel and is super simple to run like so:
+
+<img src="http://www.html5rocks.com/static/images/screenshots/auditpanel/index.002.png">
+
+Once you run the Audit, notice that it classifies the suggestions by severity, with the most severe marked with a red dot and medium severity by an orange dot. This color coding will help you prioritize the recommendations so you can focus on the most import and biggest gain items first.

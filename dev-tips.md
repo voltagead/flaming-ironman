@@ -92,3 +92,17 @@ Welcome back to the start of a great week! Today I want to share a tip on a less
 <img src="http://www.html5rocks.com/static/images/screenshots/auditpanel/index.002.png">
 
 Once you run the Audit, notice that it classifies the suggestions by severity, with the most severe marked with a red dot and medium severity by an orange dot. This color coding will help you prioritize the recommendations so you can focus on the most import and biggest gain items first.
+
+---
+
+# 8/3/2016
+
+<img src="http://voltagead.com/wp-content/themes/voltage4/img/voltage-dev-tips.png">
+
+Good Day Voltage! Today I want to share a few quick tips on Chrome DevTools. I literally have DevTools open 99% of the time I am working on a web page, so why not learn all the little things it has to offer.
+
+1. Did you know it's possible to re-order the DOM layout using drag and drop on selected elements? I didn't! There is no need to edit html, cut, edit html somewhere else, paste. Just select a DOM element with your mouse and drag it around the code and drop it where you want it to show.
+
+2. Do you ever copy CSS from DevTools and paste it in Sublime then have to change the spacing indentation to tabs to adhere with our standards? Well you won't have to change the indentation from spaces to tabs after pasting anymore with this tip. Go to your DevTools settings (F1 key), Then look for "Default Indentation" near the bottom left of the Preferences and you will see where you can change the option to "Tab Character".
+
+3. Did you know DevTools has an official Dark Theme? Go to Setting (F1 Key), then look for "Theme" near the top left of the preferences under Appearance and you will see there are two theme choices "Default" and "Dark".

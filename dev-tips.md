@@ -120,7 +120,7 @@ https://umaar.com/assets/images/dev-tips/alt-click-expand-node.gif
 
 2. Just like Sublime, DevTools has a command menu to access almost everything in a few keystrokes. Access it the same way you do in Sublime with (PC ctrl+shift+p) or (Mac cmd+shift+p).
 
-https://umaar.com/assets/images/dev-tips/command-menu.gif
+<img src="https://umaar.com/assets/images/dev-tips/command-menu.gif">
 
 Here's an example of some available commands:
 * DevTools: Dock to right
@@ -148,4 +148,4 @@ Here's an example of some available commands:
 * Sources: Show trailing whitespace characters
 
 3. You can rearrange the DevTools panels to your preferred order. Drag and drop the panel heading as you see fit.
-https://umaar.com/assets/images/dev-tips/drag-drop-panels.gif
+<img src="https://umaar.com/assets/images/dev-tips/drag-drop-panels.gif">

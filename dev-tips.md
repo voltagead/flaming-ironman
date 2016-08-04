@@ -106,3 +106,46 @@ Good Day Voltage! Today I want to share a few quick tips on Chrome DevTools. I l
 2. Do you ever copy CSS from DevTools and paste it in Sublime then have to change the spacing indentation to tabs to adhere with our standards? Well you won't have to change the indentation from spaces to tabs after pasting anymore with this tip. Go to your DevTools settings (F1 key), Then look for "Default Indentation" near the bottom left of the Preferences and you will see where you can change the option to "Tab Character".
 
 3. Did you know DevTools has an official Dark Theme? Go to Setting (F1 Key), then look for "Theme" near the top left of the preferences under Appearance and you will see there are two theme choices "Default" and "Dark".
+
+---
+
+# 8/4/2016
+
+<img src="http://voltagead.com/wp-content/themes/voltage4/img/voltage-dev-tips.png">
+
+Yesterday, I shared a few tips on Chrome's DevTools. Today, I want continue with a few more!
+
+1. You can hold (alt or option key) then click in the elements panel to expand all the child nodes.
+https://umaar.com/assets/images/dev-tips/alt-click-expand-node.gif
+
+2. Just like Sublime, DevTools has a command menu to access almost everything in a few keystrokes. Access it the same way you do in Sublime with (PC ctrl+shift+p) or (Mac cmd+shift+p).
+
+https://umaar.com/assets/images/dev-tips/command-menu.gif
+
+Here's an example of some available commands:
+* DevTools: Dock to right
+* DevTools: Restore last dock position
+* DevTools: Search all files
+* Elements: Disable DOM word wrap
+* Elements: Set color format to HEX
+* Elements: Set color format to HSL
+* Elements: Set color format to RGB
+* Mobile: Inspect devices…
+* Mobile: Toggle device toolbar
+* Navigation: Clear cache & hard reload page
+* Navigation: Hard reload page
+* Navigation: Reload page
+* Network: Color code by resource type
+* Network: Disable cache (while DevTools is open)
+* Settings: Help
+* Settings: Settings
+* Settings: Shortcuts
+* Sources: Do not show whitespace characters
+* Sources: Set indentation to 2 spaces
+* Sources: Set indentation to 8 spaces
+* Sources: Set indentation to tab character
+* Sources: Show all whitespace characters
+* Sources: Show trailing whitespace characters
+
+3. You can rearrange the DevTools panels to your preferred order. Drag and drop the panel heading as you see fit.
+https://umaar.com/assets/images/dev-tips/drag-drop-panels.gif

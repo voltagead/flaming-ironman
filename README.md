@@ -38,3 +38,4 @@ Our standards are well-enough established that the only changes necessary will b
 - [jQuery Plugins](jquery-plugins.md)
 - [Wiki Template](wiki-template.md)
 - [Dev Tips](dev-tips.md)
+- [Git](git/)

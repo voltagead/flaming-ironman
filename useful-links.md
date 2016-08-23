@@ -89,3 +89,7 @@ http://code.tutsplus.com/tutorials/uncommon-jquery-selectors--cms-25812
 https://www.w3.org/WAI/WCAG20/quickref/?currentsidebar=%23col_customize#top
 
 ---
+
+#### What's My Browser
+##### Share this with your support team!
+http://www.whatsmybrowser.org/

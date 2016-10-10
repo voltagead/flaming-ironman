@@ -93,3 +93,9 @@ https://www.w3.org/WAI/WCAG20/quickref/?currentsidebar=%23col_customize#top
 #### What's My Browser
 ##### Share this with your support team!
 http://www.whatsmybrowser.org/
+
+---
+
+#### Responsive Image Breakpoints Generator
+##### Easily generate the optimal responsive image dimensions
+http://www.responsivebreakpoints.com/

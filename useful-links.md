@@ -99,3 +99,9 @@ http://www.whatsmybrowser.org/
 #### Responsive Image Breakpoints Generator
 ##### Easily generate the optimal responsive image dimensions
 http://www.responsivebreakpoints.com/
+
+---
+
+#### Lots of ways to add an ID to the "body" element
+##### from CSS Tricks
+https://css-tricks.com/add-id-to-body/

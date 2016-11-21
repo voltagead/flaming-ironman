@@ -13,4 +13,4 @@ Standards, suggestions and best practices for working with git.
 
 - `git branch | grep -v "master" | xargs git branch -D` - Deletes all but Master branch
 
-- 'git config --global alias.conflicts "diff --name-only --diff-filter=U"', then run 'git conflict' -  Create a Git alias to list all merge conflicts.
+- `git config --global alias.conflicts "diff --name-only --diff-filter=U"`, then run `git conflict` -  Create a Git alias to list all merge conflicts.

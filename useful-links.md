@@ -105,3 +105,9 @@ http://www.responsivebreakpoints.com/
 #### Lots of ways to add an ID to the "body" element
 ##### from CSS Tricks
 https://css-tricks.com/add-id-to-body/
+
+---
+
+#### The Power of the rgba() Color Function in CSS
+##### from CSS Tricks
+https://css-tricks.com/the-power-of-rgba/

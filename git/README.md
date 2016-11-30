@@ -14,3 +14,5 @@ Standards, suggestions and best practices for working with git.
 - `git branch | grep -v "master" | xargs git branch -D` - Deletes all but Master branch
 
 - `git config --global alias.conflicts "diff --name-only --diff-filter=U"`, then run `git conflicts` -  Create a Git alias to list all merge conflicts.
+
+- `alias pear='cmd "/c /xampp/php/pear.bat"'` - On Windows the `pear` command doesn't work with git bash. Add this to .bashrc or .bash_profile to get `pear` command to work.

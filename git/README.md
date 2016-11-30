@@ -12,3 +12,5 @@ Standards, suggestions and best practices for working with git.
 - `git config core.ignorecase false` - When renaming files in git to a different "case", by default git will not track the changes. This will force git to track those changes.
 
 - `git branch | grep -v "master" | xargs git branch -D` - Deletes all but Master branch
+
+- `alias pear='cmd "/c /xampp/php/pear.bat"'` - On Windows the `pear` command doesn't work with git bash. Add this to .bashrc or .bash_profile to get `pear` command to work.

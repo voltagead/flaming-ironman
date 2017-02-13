@@ -8,6 +8,7 @@ Go through this list as you are preparing to launch a website
 - [ ] 301 redirects added
 - [ ] 404s addressed
 - [ ] Get GTM code specific to client account and add to `footer.php`
+- [ ] Verify robots tag is set to INDEX,FOLLOW
 - [ ] Favicons added
 - [ ] Content migration complete
 - [ ] Ensure WP/plugins up to date 

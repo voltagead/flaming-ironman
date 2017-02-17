@@ -25,7 +25,6 @@ Our standards are well-enough established that the only changes necessary will b
 - Frameworks
 	- [WordPress](frameworks/wordpress/)
 		- [Plugins](frameworks/wordpress/plugins.md)
-		- [Pre-Lauch Checklist](frameworks/wordpress/pre-launch-checklist.md)
 	- [Laravel](frameworks/laravel/)
 - SEO
 	- [SEO Guide](seo/guide/)

@@ -122,7 +122,7 @@ Refrain from using capitalized text in your markup. Uppercase text should be set
 
 Use `padding` instead of `line-height` where possible when applying vertical padding to elements.
 
-When indenting Sass, we stick to the same four (4) spaces, and we also leave a blank line before and after the nested ruleset.
+When indenting Sass, leave a blank line before and after the nested ruleset.
 
 `!important` should be the nuclear option. Avoid if possible.
 

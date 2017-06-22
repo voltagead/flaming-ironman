@@ -12,3 +12,4 @@
 - [WordPress - Redirect to alternate WP root](wp-root.php)
 - [Breadcrumbs from URL / Yoast support](breadcrumbs-from-url.md)
 - [Elegant way to retry a jQuery AJAX call that returns an error](elegant-ajax.md)
+- [Group Store Hours from an Array](store-hours.php)

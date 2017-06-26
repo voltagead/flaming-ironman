@@ -6,12 +6,6 @@ https://developer.microsoft.com/en-us/microsoft-edge/tools/staticscan/
 
 ---
 
-#### GTmetrix
-##### Measure your site performance and includes recommendations from PageSpeed and Yslow
-https://gtmetrix.com/
-
----
-
 #### WooRank
 ##### Tons of useful SEO information about a url. Find SEO recommendations and errors with this site.
 https://www.woorank.com
@@ -84,12 +78,6 @@ http://code.tutsplus.com/tutorials/uncommon-jquery-selectors--cms-25812
 
 ---
 
-#### How to Meet WCAG 2.0
-##### A handy filterable/customizable guideline that details everything required for A, AA, and AAA compliance.
-https://www.w3.org/WAI/WCAG20/quickref/?currentsidebar=%23col_customize#top
-
----
-
 #### What's My Browser
 ##### Share this with your support team!
 http://www.whatsmybrowser.org/
@@ -111,3 +99,57 @@ https://css-tricks.com/add-id-to-body/
 #### The Power of the rgba() Color Function in CSS
 ##### from CSS Tricks
 https://css-tricks.com/the-power-of-rgba/
+
+---
+
+#### EWWW Image Optimizer
+##### Automatically optimize your images as you upload them to your blog. It can optimize the images that you have already uploaded, convert your images automatically to the file format that will produce the smallest image size
+https://wordpress.org/plugins/ewww-image-optimizer/
+
+---
+
+#### How to Meet WCAG 2.0
+##### A handy filterable/customizable guideline that details everything required for A, AA, and AAA compliance.
+https://www.w3.org/WAI/WCAG20/quickref/?currentsidebar=%23col_customize#top
+
+---
+
+#### Web Accessibility Checker
+##### This tool checks single HTML pages for conformance with accessibility standards to ensure the content can be accessed by everyone. See the Handbook link to the upper right for more about the Web Accessibility Checker.
+https://achecker.ca/checker/index.php
+
+---
+
+#### Markup Validation Service
+##### Check the markup (HTML, XHTML, …) of Web documents
+https://validator.w3.org/
+
+---
+
+#### AMP HTML ⚡ Validator
+##### A validator for the AMP HTML format.
+https://validator.ampproject.org/
+
+---
+
+#### Pingdom Website Speed Test
+##### Enter a URL to test the load time of that page, analyze it and find bottlenecks.
+https://tools.pingdom.com/
+
+---
+
+#### GTmetrix
+##### Measure your site performance and includes recommendations from PageSpeed and Yslow
+https://gtmetrix.com/
+
+---
+
+#### Google Structure Data Testing Tool
+##### The Structured Data Testing Tool (SDTT) provides a variety of ways to develop, test, and modify your structured markup.
+https://search.google.com/structured-data/testing-tool
+
+---
+
+#### Diagnostic Tools
+##### DNS and Network troubleshooting and diagnostic tools
+http://network-tools.com/

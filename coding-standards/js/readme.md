@@ -30,9 +30,9 @@ Refer to the [jQuery](http://contribute.jquery.org/style-guide/js/) style guide.
 - Concatenate variables and control characters to single quoted strings
 - JSON string requires double quotes
 
-```js
+<div class="sites-codeblock sites-codesnippet-block"><pre>
 var i = 0;
- 
+
 if ( condition ) {
     doSomething();
 } else if ( otherCondition ) {
@@ -40,44 +40,44 @@ if ( condition ) {
 } else {
     otherThing();
 }
- 
+
 while ( !condition ) {
     iterating++;
 }
- 
+
 for ( var i = 0; i < 100; i++ ) {
     object[ array[ i ] ] = someFn( i );
 }
- 
+
 try {
     // Expressions
 } catch ( e ) {
     // Expressions
 }
- 
+
 array = ['*'];
- 
+
 array = [ a, b ];
- 
+
 foo( arg );
- 
+
 foo( options, object[ property ] );
- 
+
 foo( [ a, b ], 'property', { c: d } );
- 
+
 foo({ a: 'alpha', b: 'beta' });
- 
+
 foo( [ a, b ] );
- 
+
 foo({
     a: 'alpha',
     b: 'beta'
 });
- 
+
 foo( function() {
     // Do stuff
 }, options );
- 
+
 foo( data, function() {
     // Do stuff
 } );
@@ -87,19 +87,19 @@ map = {
     when: 4,
     "you are": 15
 };
- 
+
 array = [
     9,
     4,
     15
 ];
- 
+
 array = [
     {
         key: val
     }
 ];
- 
+
 array = [
     {
         key: val

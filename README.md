@@ -1,16 +1,3 @@
-# VOLTAGE Development Guidelines
-Internal Information for use by Voltage
-
-## Standards Change Policy
-Our standards are well-enough established that the only changes necessary will be to accommodate unforeseen problems or new technologies. A “simple” change should have good, specific reasons. This is more pertaining to changing a big standard like spacing, quotes, etc. If we change a standard, that makes any code from Voltage for the last months “non-standard” so we’ll continue to have mixed standards in our files as we go back to change things.
-
-## To Contribute
-1. Fork this repository to your account
-2. Make your suggestions
-3. Create a pull request
-4. Post a link to the pull request into the `#development` channel in Slack for discussion, tagging everyone in the channel with an `@here` mention
-5. Once the pull request has been approved and merged into master, send an email to <a href="mailto:dev@voltagead.com">dev@voltagead.com</a> with subject "Dev's Please Read - Update to Flaming-Ironman". Then outline the new additions in the group email so everyone is aware of what changed.
-
 ## Table of Contents
 - [Development](development.md)
 - [Tech Talk](tech-talk.md)
